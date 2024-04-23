@@ -1,0 +1,8 @@
+[INFO ] 2023-11-01 10:54:55,865 method:com.autotest.api.base.TestNgConfig.<init>(TestNgConfig.java:92)
+
+[INFO ] 2023-11-01 10:54:56,204 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:423)
+发送post请求
+[INFO ] 2023-11-01 10:54:56,255 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:428)
+statusCode= 405
+[INFO ] 2023-11-01 10:54:56,586 method:com.autotest.api.util.OperateFile.dealExcelVatiables(OperateFile.java:619)
+正在测试1. 获取用户信息

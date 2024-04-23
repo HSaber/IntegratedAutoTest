@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="JingTests" preserve-order="true" parallel="tests" thread-count="25">
+    <test name="field">
+        <classes>
+            <class name="com.qa.follower.TestCustomfields"></class>
+        </classes>
+    </test>
+
+    <test name="Survey">
+        <classes>
+            <class name="com.qa.modules.b2b.TestSurvey"></class>
+        </classes>
+    </test>
+
+<!--    <test name="LeadFunnel">
+        <classes>
+            <class name="com.qa.modules.b2b.TestLeadFunnel"></class>
+        </classes>
+    </test>-->
+
+    <test name="LeadFunnel2">
+        <classes>
+            <class name="com.qa.modules.b2b.TestLeadFunnel2"></class>
+        </classes>
+    </test>
+
+    <test name="LeadRouting">
+        <classes>
+            <class name="com.qa.modules.b2b.TestLeadRouting"></class>
+        </classes>
+    </test>
+
+    <test name="Tag">
+        <classes>
+            <class name="com.qa.Omni.TestTag"></class>
+        </classes>
+    </test>
+
+    <test name="Omniuser">
+        <classes>
+            <class name="com.qa.Omni.TestOmniuser"></class>
+        </classes>
+    </test>
+
+
+    <test name="Relation">
+        <classes>
+            <class name="com.qa.Omni.TestRelation"></class>
+        </classes>
+    </test>
+
+    <test name="group">
+        <classes>
+            <class name="com.qa.follower.group.TestGroup"></class>
+        </classes>
+    </test>
+
+    <test name="EDM">
+        <classes>
+            <class name="com.qa.content.TestEDM"></class>
+        </classes>
+    </test>
+    
+    <test name="Qrcode">
+        <classes>
+            <class name="com.qa.Omni.TestQrcode"></class>
+        </classes>
+    </test>
+
+    <test name="KeyWord">
+        <classes>
+            <class name="com.qa.Engagement.TestKeyWord"></class>
+        </classes>
+    </test>
+
+    <test name="MenuSmock">
+        <classes>
+            <class name="com.qa.Omni.TestMenuSmoke"></class>
+        </classes>
+    </test>
+
+    <test name="TestJstracking">
+        <classes>
+            <class name="com.qa.Omni.Jstracking.TestJstracking"></class>
+            <class name="com.qa.Omni.Jstracking.TestJstrackingEvent"></class>
+            <class name="com.qa.Omni.Jstracking.TestJstrackingQuota"></class>
+            <class name="com.qa.Omni.Jstracking.TestJstrackingAnalysis"></class>
+        </classes>
+    </test>
+
+
+    <test name="Download">
+        <classes>
+            <class name="com.qa.follower.TestDownload">
+
+                    <methods>
+                        <!--里面只有新接口，阿里云微软云都可以跑-->
+                        <include name="testDownload_new"/>
+                        <!--不在微软云上跑，微软云没改老的dowanload接口，因为用不到，但是阿里云上还有地方用-->
+                        <include name="testDownload"/>
+
+                    </methods>
+
+            </class>
+        </classes>
+    </test>
+
+    <test name="salesContentLibrary">
+        <classes>
+            <class name="com.qa.modules.SalesContentLibrary.TestSalesContentLibraryH5"></class>
+        </classes>
+    </test>
+
+    <test name="MiniProgram">
+        <classes>
+            <class name="com.qa.content.TestMiniProgram"></class>
+        </classes>
+    </test>
+
+    <test name="PrivacyPolicy">
+        <classes>
+            <class name="com.qa.PrivacyPolicy.TestPrivacyPolicy"></class>
+        </classes>
+    </test>
+
+    <test name="PersonalLink">
+        <classes>
+            <class name="com.qa.content.TestPersonalLink"></class>
+        </classes>
+    </test>
+
+    <test name="Template">
+        <classes>
+            <class name="com.qa.content.TestTemplate"></class>
+        </classes>
+    </test>
+
+    <test name="PostCreate">
+        <classes>
+            <class name="com.qa.content.TestPostCreate"></class>
+        </classes>
+    </test>
+
+    <test name="PostWorkflow">
+        <classes>
+            <class name="com.qa.content.TestPostWorkflow"></class>
+        </classes>
+    </test>
+
+    <test name="TestPersonalizedPost">
+        <classes>
+            <class name="com.qa.content.TestPersonalizedPost"></class>
+        </classes>
+    </test>
+
+    <test name="PostMerge">
+        <classes>
+            <class name="com.qa.content.TestPostMerge"></class>
+        </classes>
+    </test>
+
+    <test name="48hTextPublishing">
+        <classes>
+            <class name="com.qa.content.Test48hTextPublishing"></class>
+        </classes>
+    </test>
+
+    <test name="OpenApi">
+        <classes>
+            <class name="com.qa.openapi.TestOpenApi"></class>
+        </classes>
+    </test>
+
+    <test name="TestPermission">
+    <classes>
+        <class name="com.qa.permission.contentcenterPermission"></class>
+        <class name="com.qa.permission.contentmarketingPermission"></class>
+        <class name="com.qa.permission.chatbotsPermission"></class>
+        <class name="com.qa.permission.exhibitionsPermission"></class>
+        <class name="com.qa.permission.filePermission"></class>
+        <class name="com.qa.permission.formPermission"></class>
+        <class name="com.qa.permission.formNewPermission"></class>
+        <class name="com.qa.permission.groupsPermission"></class>
+        <class name="com.qa.permission.journeyPermission"></class>
+        <class name="com.qa.permission.jstrackingPermission"></class>
+        <class name="com.qa.permission.linksPermission"></class>
+        <class name="com.qa.permission.miniprogramPermission"></class>
+        <class name="com.qa.permission.postsPermission"></class>
+        <class name="com.qa.permission.seminarPermission"></class>
+        <class name="com.qa.permission.webinarsPermission"></class>
+    </classes>
+    </test>
+
+    <test name="JourneyauditProcess">
+        <classes>
+            <class name="com.qa.auditProcess.JourneyauditProcess"></class>
+        </classes>
+    </test>
+
+    <test name="QrcodeauditProcess">
+        <classes>
+            <class name="com.qa.auditProcess.QrcodeauditProcess"></class>
+        </classes>
+    </test>
+    <test name="Seminar">
+        <classes>
+            <class name="com.qa.modules.b2b.leadgeneration.TestLeadsgeneration">
+                <methods>
+                    <include name="testSeminar" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="SendcontentauditProcess">
+        <classes>
+            <class name="com.qa.auditProcess.SendcontentauditProcess"></class>
+        </classes>
+    </test>
+
+    <test name="MenuauditProcess">
+        <classes>
+            <class name="com.qa.auditProcess.MenuauditProcess"></class>
+        </classes>
+    </test>
+
+    <test name="TestPiiencrypt">
+        <classes>
+            <class name="com.qa.piiencrypt.TestPiiencrypt"></class>
+        </classes>
+    </test>
+
+<!--    <test name="CDNMonitor">
+       <classes>
+            <class name="com.qa.monitor.CDNPingMonitor"></class>
+       </classes>
+    </test>-->
+
+    <test name="StaticGroup">
+        <classes>
+            <class name="com.qa.Omni.TestStaticGroup"></class>
+        </classes>
+    </test>
+
+    <test name="JourneyBasic">
+        <classes>
+            <class name="com.qa.Omni.Journey.TestJourneyBasic"></class>
+        </classes>
+    </test>
+    <test name="JourneyNode">
+        <classes>
+            <class name="com.qa.Omni.Journey.TestJourneyNode"></class>
+        </classes>
+    </test>
+    <test name="JourneyStartNode">
+        <classes>
+            <class name="com.qa.Omni.Journey.TestJourneyStartNode"></class>
+        </classes>
+    </test>
+    <test name="JourneyActionMQ">
+        <classes>
+            <class name="com.qa.Omni.Journey.TestJourneyActionMQ"></class>
+        </classes>
+    </test>
+
+    <test name="FissionWechat">
+        <classes>
+            <class name="com.qa.modules.fission.TestFission"></class>
+        </classes>
+    </test>
+
+    <test name="Exhibition" >
+        <classes>
+            <class name="com.qa.modules.b2b.leadgeneration.TestLeadsgeneration">
+                <methods>
+                    <include name="testExhibition" />
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <test name="ContentMarkeing" >
+        <classes>
+            <class name="com.qa.modules.b2b.leadgeneration.TestLeadsgeneration">
+                <methods>
+                    <include name="testContentMarkeing" />
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+
+    <test name="Fission2">
+        <classes>
+            <class name="com.qa.modules.fission.TestFission2"></class>
+        </classes>
+    </test>
+    
+    <test name="TestForm">
+        <classes>
+            <class name="com.qa.modules.b2b.TestForm"></class>
+        </classes>
+    </test>
+
+   <listeners>
+       <listener class-name="com.qa.listener.ExtentTestNGIReporterListener"/>
+   </listeners>
+
+</suite>

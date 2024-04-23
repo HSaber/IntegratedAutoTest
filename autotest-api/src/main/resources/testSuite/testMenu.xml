@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="menuSuite" preserve-order="true" parallel="tests" thread-count="2">
+    <test name="Menu">
+        <classes>
+            <class name="com.qa.Omni.TestMenu"></class>
+        </classes>
+    </test>
+
+    <test name="MenuSmock">
+        <classes>
+            <class name="com.qa.Omni.TestMenuSmoke"></class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.qa.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

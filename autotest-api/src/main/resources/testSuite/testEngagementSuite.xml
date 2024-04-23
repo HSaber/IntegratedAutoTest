@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testEngagementSuite"  parallel="tests" thread-count="30">
+    <test name="KeyWord">
+        <classes>
+            <class name="com.qa.Engagement.TestKeyWord"></class>
+        </classes>
+    </test>
+    <test name="menuSmock">
+        <classes>
+            <class name="com.qa.Omni.TestMenuSmoke"></class>
+        </classes>
+    </test>
+    <test name="Qrcode">
+        <classes>
+            <class name="com.qa.Omni.TestQrcode"></class>
+        </classes>
+    </test>
+    <test name="Chatbot">
+        <classes>
+            <class name="com.qa.Omni.TestChatbot"></class>
+        </classes>
+    </test>
+    <!--auditprocess-->
+    <test name="QrcodeauditProcess">
+        <classes>
+            <class name="com.qa.auditProcess.QrcodeauditProcess"></class>
+        </classes>
+    </test>
+    <test name="MenuauditProcess">
+        <classes>
+            <class name="com.qa.auditProcess.MenuauditProcess"></class>
+        </classes>
+    </test>
+    <!--permission -->
+    <test name="chatbotsPermission">
+        <classes>
+            <class name="com.qa.permission.chatbotsPermission"></class>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.qa.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

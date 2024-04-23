@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testLeadGenerationSuite"  parallel="tests" thread-count="30">
+    <test name="Seminar">
+        <classes>
+            <class name="com.qa.modules.b2b.leadgeneration.TestLeadsgeneration">
+                <methods>
+                    <include name="testSeminar" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Exhibition" >
+        <classes>
+            <class name="com.qa.modules.b2b.leadgeneration.TestLeadsgeneration">
+                <methods>
+                    <include name="testExhibition" />
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+    <test name="ContentMarkeing" >
+        <classes>
+            <class name="com.qa.modules.b2b.leadgeneration.TestLeadsgeneration">
+                <methods>
+                    <include name="testContentMarkeing" />
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <!--permission -->
+    <test name="contentmarketingPermission">
+        <classes>
+            <class name="com.qa.permission.contentmarketingPermission"></class>
+        </classes>
+    </test>
+    <test name="exhibitionsPermission">
+        <classes>
+            <class name="com.qa.permission.exhibitionsPermission"></class>
+        </classes>
+    </test>
+    <test name="seminarPermission">
+        <classes>
+            <class name="com.qa.permission.seminarPermission"></class>
+        </classes>
+    </test>
+    <test name="webinarsPermission">
+        <classes>
+            <class name="com.qa.permission.webinarsPermission"></class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.qa.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

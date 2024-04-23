@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SalesContentLibrary" parallel="false">
+    <test name="SalesContentLibrary">
+        <classes>
+            <class name="com.qa.modules.SalesContentLibrary.TestSalesContentLibraryH5"></class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.qa.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

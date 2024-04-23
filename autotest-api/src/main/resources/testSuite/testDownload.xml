@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DownloadSuite" parallel="false">
+    <test name="Download">
+        <classes>
+            <class name="com.qa.follower.TestDownload">
+                <methods>
+                    <!--不在微软云上跑，微软云没改老的dowanload接口，因为用不到，但是阿里云上还有地方用-->
+                    <include name="testDownload"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.qa.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

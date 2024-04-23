@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SimpleOrderFlow">
+    <!-- driver的属性配置文件保存路径 -->
+    <parameter name="driverConfgFilePath" value="src/main/resources/config/driver.properties" />
+    <!-- chrome,firefox,ghost和ie不区分大小写 -->
+    <parameter name="browserName" value="chrome" />
+    <!-- 页面元素10秒不出现超时时间 -->
+    <parameter name="timeOut" value="5" />
+    <!-- 定义测试的站点 -->
+    <parameter name="account" value="kaylee2019"/>
+    <parameter name="password" value="111111"/>
+    <parameter name="realname" value="郑怡"/>
+    <parameter name="pronum" value="4"/>
+    <parameter name="testurl" value="http://116.62.110.78:90" />
+
+    <!--   <parameter name="testurl" value="http://116.62.110.78:90/#/login?redirect=/deal/homeIndex" />-->
+
+    <!-- 定义测试模块，用test标签包围 -->
+    <test name="createSimpleOrder" preserve-order="true">
+        <classes>
+
+            <class name="com.autotest.ui.business.CreateCloudSimpleOrderByCM" />
+
+        </classes>
+    </test>
+
+    <!--  <listeners>
+          &lt;!&ndash; arrow插件实现用例失败重跑以及生成测试报告 &ndash;&gt;
+          <listener class-name="com.test.plugins.arrow.TestResultListener" />
+          <listener class-name="com.test.plugins.arrow.RetryListener" />
+          <listener class-name="com.test.plugins.arrow.PowerEmailableReporter" />
+      </listeners>-->
+</suite> <!-- Suite -->

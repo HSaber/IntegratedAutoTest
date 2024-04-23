@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ContentSuite"  parallel="tests" thread-count="30">
+    <test name="48h">
+        <classes>
+            <class name="com.qa.content.Test48hTextPublishing"></class>
+        </classes>
+    </test>
+
+    <test name="create">
+        <classes>
+            <class name="com.qa.content.TestPostCreate"></class>
+        </classes>
+    </test>
+
+    <test name="personalized">
+        <classes>
+            <class name="com.qa.content.TestPersonalizedPost"></class>
+        </classes>
+    </test>
+
+    <test name="personallink">
+        <classes>
+            <class name="com.qa.content.TestPersonalLink"></class>
+        </classes>
+    </test>
+
+    <test name="merge">
+        <classes>
+            <class name="com.qa.content.TestPostMerge"></class>
+        </classes>
+    </test>
+
+    <test name="MiniProgram">
+        <classes>
+            <class name="com.qa.content.TestMiniProgram"></class>
+        </classes>
+    </test>
+
+    <test name="workflow">
+        <classes>
+            <class name="com.qa.content.TestPostWorkflow"></class>
+        </classes>
+    </test>
+
+
+    <!--permission -->
+    <test name="postsPermission">
+        <classes>
+            <class name="com.qa.permission.postsPermission"></class>
+        </classes>
+    </test>
+    <test name="linksPermission">
+        <classes>
+            <class name="com.qa.permission.linksPermission"></class>
+        </classes>
+    </test>
+    <test name="miniprogramPermission">
+        <classes>
+            <class name="com.qa.permission.miniprogramPermission"></class>
+        </classes>
+    </test>
+
+    <!--auditProcess-->
+    <test name="TemplatepushProcess">
+        <classes>
+            <class name="com.qa.auditProcess.TemplatepushProcess"></class>
+        </classes>
+    </test>
+    <test name="SendcontentauditProcess">
+        <classes>
+            <class name="com.qa.auditProcess.SendcontentauditProcess"></class>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.qa.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

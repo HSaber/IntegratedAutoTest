@@ -1,0 +1,42 @@
+[2023-12-05 13:38:03] [INFO] 当前操作系统是:[Windows 10]
+[2023-12-05 13:38:03] [INFO] 启动测试浏览器：[chrome]
+[2023-12-05 13:38:05] [INFO] 最大化浏览器:chrome
+[2023-12-05 13:38:06] [INFO] 打开测试页面:[http://116.62.110.78:90]
+[2023-12-05 13:38:07] [INFO] 开始检查登录页面元素
+[2023-12-05 13:38:07] [INFO] 开始查找元素[By.id: form_item_account]
+[2023-12-05 13:38:10] [INFO] 找到了元素 [By.id: form_item_account]
+[2023-12-05 13:38:10] [INFO] 开始查找元素[By.id: form_item_password]
+[2023-12-05 13:38:10] [INFO] 找到了元素 [By.id: form_item_password]
+[2023-12-05 13:38:10] [INFO] 开始查找元素[By.xpath: //*[@id="rc-tabs-0-panel-1"]/form/div[4]/div/div/div/button]
+[2023-12-05 13:38:11] [INFO] 找到了元素 [By.xpath: //*[@id="rc-tabs-0-panel-1"]/form/div[4]/div/div/div/button]
+[2023-12-05 13:38:11] [INFO] 检查登录页面元素完毕
+[2023-12-05 13:38:11] [INFO] 开始输入登录信息
+[2023-12-05 13:38:11] [INFO] 清除元素 [By.id: form_item_account]上的内容
+[2023-12-05 13:38:11] [INFO] 输入：[kaylee2019] 到 [By.id: form_item_account]
+[2023-12-05 13:38:11] [INFO] 清除元素 [By.id: form_item_password]上的内容
+[2023-12-05 13:38:11] [INFO] 输入：[111111] 到 [By.id: form_item_password]
+[2023-12-05 13:38:11] [INFO] 输入登录信息完毕
+[2023-12-05 13:38:11] [INFO] 点击元素 [By.xpath: //*[@id="rc-tabs-0-panel-1"]/form/div[4]/div/div/div/button]
+[2023-12-05 13:38:11] [INFO] 开始等待首页元素加载
+[2023-12-05 13:38:11] [INFO] 开始查找元素[By.cssSelector: .iitoo-header-user-dropdown__header]
+[2023-12-05 13:38:12] [INFO] 找到了元素 [By.cssSelector: .iitoo-header-user-dropdown__header]
+[2023-12-05 13:38:12] [INFO] 首页元素加载完毕
+[2023-12-05 13:38:12] [INFO] 开始检查用户名是不是：郑怡
+[2023-12-05 13:38:12] [INFO] 开始查找元素[By.xpath: //*[@id="htmlRoot"]/body/div[5]/div/div/div/ul/li[1]/span/div/div[2]/span[1]]
+[2023-12-05 13:38:13] [INFO] 找到了元素 [By.xpath: //*[@id="htmlRoot"]/body/div[5]/div/div/div/ul/li[1]/span/div/div[2]/span[1]]
+[2023-12-05 13:38:13] [INFO] 找到了期望的文字: [郑怡]
+[2023-12-05 13:38:13] [INFO] 用户名检查完毕,用户名是：郑怡
+[2023-12-05 13:38:13] [INFO] 开始等待云简单列表元素加载
+[2023-12-05 13:38:13] [INFO] 开始查找元素[By.xpath: //*[@id="nav_chat"]/div[2]/div/ul/li[2]/span/a]
+[2023-12-05 13:38:13] [INFO] 找到了元素 [By.xpath: //*[@id="nav_chat"]/div[2]/div/ul/li[2]/span/a]
+[2023-12-05 13:38:13] [INFO] 云简单列表元素加载完毕
+[2023-12-05 13:38:13] [INFO] 点击元素 [By.xpath: //*[@id="nav_chat"]/div[2]/div/ul/li[2]/span/a]
+[2023-12-05 13:38:13] [INFO] 开始查找元素[By.xpath: (//div[@class="ant-tabs-nav-list"])[2]/div[1]/div]
+[2023-12-05 13:38:13] [INFO] 找到了元素 [By.xpath: (//div[@class="ant-tabs-nav-list"])[2]/div[1]/div]
+[2023-12-05 13:38:14] [WARN] By.cssSelector: table.vxe-table--body:nth-child(2) > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) is unclickable, try again
+[2023-12-05 13:38:14] [WARN] By.cssSelector: table.vxe-table--body:nth-child(2) > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) is unclickable, try again
+[2023-12-05 13:38:15] [WARN] By.cssSelector: table.vxe-table--body:nth-child(2) > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) is unclickable, try again
+[2023-12-05 13:38:15] [WARN] By.cssSelector: table.vxe-table--body:nth-child(2) > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) is unclickable, try again
+[2023-12-05 13:38:16] [WARN] By.cssSelector: table.vxe-table--body:nth-child(2) > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) is unclickable, try again
+[2023-12-05 13:38:16] [WARN] By.cssSelector: table.vxe-table--body:nth-child(2) > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) is unclickable
+[2023-12-05 13:38:16] [ERROR] Failed to click element [By.cssSelector: table.vxe-table--body:nth-child(2) > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1)]

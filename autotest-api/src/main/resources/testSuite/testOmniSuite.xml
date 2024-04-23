@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="OmniSuite"  parallel="tests" thread-count="30">
+    <test name="LeadFunnel">
+        <classes>
+            <class name="com.qa.modules.b2b.TestLeadFunnel"></class>
+        </classes>
+    </test>
+    <test name="group">
+        <classes>
+            <class name="com.qa.follower.group.TestGroup"></class>
+        </classes>
+    </test>
+    <test name="Tag">
+        <classes>
+            <class name="com.qa.Omni.TestTag"></class>
+        </classes>
+    </test>
+    <test name="CustomField">
+        <classes>
+            <class name="com.qa.follower.TestCustomfields"></class>
+        </classes>
+    </test>
+    <test name="Omniuser">
+        <classes>
+            <class name="com.qa.Omni.TestOmniuser"></class>
+        </classes>
+    </test>
+    <test name="SalesContentLibrary">
+        <classes>
+            <class name="com.qa.modules.SalesContentLibrary.TestSalesContentLibraryH5"></class>
+        </classes>
+    </test>
+    <test name="StaticGroup">
+        <classes>
+            <class name="com.qa.Omni.TestStaticGroup"></class>
+        </classes>
+    </test>
+    <!--permission -->
+    <test name="TestPermission">
+        <classes>
+            <class name="com.qa.permission.contentcenterPermission"></class>
+            <class name="com.qa.permission.contentmarketingPermission"></class>
+            <class name="com.qa.permission.chatbotsPermission"></class>
+            <class name="com.qa.permission.exhibitionsPermission"></class>
+            <class name="com.qa.permission.filePermission"></class>
+            <class name="com.qa.permission.formPermission"></class>
+            <class name="com.qa.permission.formNewPermission"></class>
+            <class name="com.qa.permission.groupsPermission"></class>
+            <class name="com.qa.permission.journeyPermission"></class>
+            <class name="com.qa.permission.jstrackingPermission"></class>
+            <class name="com.qa.permission.linksPermission"></class>
+            <class name="com.qa.permission.miniprogramPermission"></class>
+            <class name="com.qa.permission.postsPermission"></class>
+            <class name="com.qa.permission.seminarPermission"></class>
+            <class name="com.qa.permission.webinarsPermission"></class>
+        </classes>
+    </test>
+    <!--PrivacyPolicy-->
+    <test name="PrivacyPolicy">
+        <classes>
+            <class name="com.qa.PrivacyPolicy.TestPrivacyPolicy"></class>
+        </classes>
+    </test>
+    <!--Pii-->
+    <test name="TestPiiencrypt">
+        <classes>
+            <class name="com.qa.piiencrypt.TestPiiencrypt"></class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.qa.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

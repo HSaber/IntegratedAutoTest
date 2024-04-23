@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestLeadFunnel2" parallel="false">
+    <test name="TestLeadFunnel2">
+        <classes>
+            <class name="com.qa.modules.b2b.TestLeadFunnel2"></class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.qa.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

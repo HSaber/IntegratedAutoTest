@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RBACSuite" parallel="false">
+<test name="RBAC">
+    <classes>
+        <class name="com.qa.user.TestRBAC">
+            <methods>
+                <include name="checkFeatureChildCore2Follower"/>
+                <include name="checkFeatureChildCore2Content"/>
+                <include name="checkFeatureChildCore1"/>
+                <include name="checkFeatureChildIntegration"/>
+                <include name="checkFeatureChildCLC"/>
+            </methods>
+
+        </class>
+    </classes>
+</test>
+    <listeners>
+        <listener class-name="com.qa.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

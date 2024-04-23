@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testJstrackingSuite" parallel="tests" thread-count="30">
+    <test name="Jstracking">
+        <classes>
+            <class name="com.qa.Omni.Jstracking.TestJstracking"></class>
+            <class name="com.qa.Omni.Jstracking.TestJstrackingEvent"></class>
+            <class name="com.qa.Omni.Jstracking.TestJstrackingQuota"></class>
+            <class name="com.qa.Omni.Jstracking.TestJstrackingAnalysis"></class>
+        </classes>
+    </test>
+    <!--permission -->
+    <test name="jstrackingPermission">
+        <classes>
+            <class name="com.qa.permission.jstrackingPermission"></class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.qa.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

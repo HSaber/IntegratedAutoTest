@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testTemplate" parallel="tests" thread-count="10">
+    <test name="Template">
+        <classes>
+            <class name="com.qa.content.TestTemplate"></class>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.qa.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

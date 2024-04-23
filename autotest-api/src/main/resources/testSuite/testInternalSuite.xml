@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="InternalSuite"  parallel="tests" thread-count="30">
+    <test name="OpenApi">
+        <classes>
+            <class name="com.qa.openapi.TestOpenApi"></class>
+        </classes>
+    </test>
+    <test name="TestPiiencrypt">
+        <classes>
+            <class name="com.qa.piiencrypt.TestPiiencrypt"></class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.qa.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

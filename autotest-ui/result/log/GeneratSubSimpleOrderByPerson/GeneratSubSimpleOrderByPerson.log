@@ -1,0 +1,63 @@
+[2023-11-02 15:57:44] [INFO] 当前操作系统是:[Windows 11]
+[2023-11-02 15:57:44] [INFO] 启动测试浏览器：[chrome]
+[2023-11-02 15:57:46] [INFO] 最大化浏览器:chrome
+[2023-11-02 15:57:51] [WARN] 注意：页面没有完全加载出来，刷新重试！！
+[2023-11-02 15:57:53] [INFO] 页面刷新成功！
+[2023-11-02 15:57:53] [INFO] 打印状态：complete
+[2023-11-02 15:57:54] [INFO] 开始检查登录页面元素
+[2023-11-02 15:57:54] [INFO] 开始查找元素[By.id: form_item_account]
+[2023-11-02 15:57:54] [INFO] 找到了元素 [By.id: form_item_account]
+[2023-11-02 15:57:54] [INFO] 开始查找元素[By.id: form_item_password]
+[2023-11-02 15:57:54] [INFO] 找到了元素 [By.id: form_item_password]
+[2023-11-02 15:57:54] [INFO] 开始查找元素[By.xpath: //*[@id="rc-tabs-0-panel-1"]/form/div[4]/div/div/div/button]
+[2023-11-02 15:57:54] [INFO] 找到了元素 [By.xpath: //*[@id="rc-tabs-0-panel-1"]/form/div[4]/div/div/div/button]
+[2023-11-02 15:57:54] [INFO] 检查登录页面元素完毕
+[2023-11-02 15:57:54] [INFO] 开始输入登录信息
+[2023-11-02 15:57:54] [INFO] 清除元素 [By.id: form_item_account]上的内容
+[2023-11-02 15:57:54] [INFO] 输入：[sunshaoyu99999999999] 到 [By.id: form_item_account]
+[2023-11-02 15:57:54] [INFO] 清除元素 [By.id: form_item_password]上的内容
+[2023-11-02 15:57:54] [INFO] 输入：[111111] 到 [By.id: form_item_password]
+[2023-11-02 15:57:54] [INFO] 输入登录信息完毕
+[2023-11-02 15:57:54] [INFO] 点击元素 [By.xpath: //*[@id="rc-tabs-0-panel-1"]/form/div[4]/div/div/div/button]
+[2023-11-02 15:57:54] [INFO] 开始等待首页元素加载
+[2023-11-02 15:57:54] [INFO] 开始查找元素[By.cssSelector: .iitoo-header-user-dropdown__header]
+[2023-11-02 15:57:56] [INFO] 找到了元素 [By.cssSelector: .iitoo-header-user-dropdown__header]
+[2023-11-02 15:57:56] [INFO] 首页元素加载完毕
+[2023-11-02 15:57:56] [INFO] 开始检查用户名是不是：孙绍宇
+[2023-11-02 15:57:56] [INFO] 开始查找元素[By.xpath: //*[@id="htmlRoot"]/body/div[5]/div/div/div/ul/li[1]/span/div/div[2]/span[1]]
+[2023-11-02 15:57:56] [INFO] 找到了元素 [By.xpath: //*[@id="htmlRoot"]/body/div[5]/div/div/div/ul/li[1]/span/div/div[2]/span[1]]
+[2023-11-02 15:57:56] [INFO] 找到了期望的文字: [孙绍宇]
+[2023-11-02 15:57:56] [INFO] 用户名检查完毕,用户名是：孙绍宇
+[2023-11-02 15:57:56] [INFO] 点击元素 [By.xpath: //*[@id="nav_chat"]/div[3]/div/ul/li[1]/span/a]
+[2023-11-02 15:57:56] [INFO] 开始查找元素[By.xpath: /html/body/div[1]/section/section/section/div[2]/div/div/div[1]/div[2]/div[1]/div/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[11]/div/div/span[1]]
+[2023-11-02 15:57:57] [INFO] 找到了元素 [By.xpath: /html/body/div[1]/section/section/section/div[2]/div/div/div[1]/div[2]/div[1]/div/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[11]/div/div/span[1]]
+[2023-11-02 15:57:57] [INFO] 点击元素 [By.xpath: /html/body/div[1]/section/section/section/div[2]/div/div/div[1]/div[2]/div[1]/div/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[11]/div/div/span[1]]
+[2023-11-02 15:57:57] [INFO] 开始查找元素[By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[1]/div/form/div/div[2]/div/div[2]/div/div/div/div]
+[2023-11-02 15:57:57] [INFO] 找到了元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[1]/div/form/div/div[2]/div/div[2]/div/div/div/div]
+[2023-11-02 15:57:58] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[1]/div/form/div/div[2]/div/div[2]/div/div/div/div]
+[2023-11-02 15:57:58] [INFO] 点击元素 [By.cssSelector: div.ant-select-item:nth-child(1) > div:nth-child(1)]
+[2023-11-02 15:57:58] [INFO] 点击元素 [By.className: ant-picker-input]
+[2023-11-02 15:57:58] [INFO] 开始查找元素[By.cssSelector: .ant-picker-content > tbody:nth-child(2) > tr:nth-child(4) > td:nth-child(1) > div:nth-child(1)]
+[2023-11-02 15:57:58] [INFO] 找到了元素 [By.cssSelector: .ant-picker-content > tbody:nth-child(2) > tr:nth-child(4) > td:nth-child(1) > div:nth-child(1)]
+[2023-11-02 15:57:58] [INFO] 点击元素 [By.xpath: /html/body/div[1]/section/section/section/div[2]/div/div/div[1]/div/form/div/div[6]/div/div[2]/div/div/div/div/div/span[2]]
+[2023-11-02 15:57:58] [INFO] 开始查找元素[By.xpath: //*[@id="htmlRoot"]/body/div[8]/div/div/div/div[2]/div[1]/div/div/div[2]/div]
+[2023-11-02 15:57:58] [INFO] 找到了元素 [By.xpath: //*[@id="htmlRoot"]/body/div[8]/div/div/div/div[2]/div[1]/div/div/div[2]/div]
+[2023-11-02 15:57:58] [INFO] 点击元素 [By.xpath: //*[@id="htmlRoot"]/body/div[8]/div/div/div/div[2]/div[1]/div/div/div[2]/div]
+[2023-11-02 15:57:58] [INFO] 点击元素 [By.cssSelector: .ant-btn-sm > span:nth-child(1)]
+[2023-11-02 15:57:58] [INFO] 开始查找元素[By.xpath: //*[@class="table-top"]/div/div[2]/div[1]/div[1]]
+[2023-11-02 15:57:58] [INFO] 找到了元素 [By.xpath: //*[@class="table-top"]/div/div[2]/div[1]/div[1]]
+[2023-11-02 15:57:59] [INFO] 点击元素 [By.cssSelector: th.col_94 > div:nth-child(1) > span:nth-child(1) > span:nth-child(1)]
+[2023-11-02 15:57:59] [INFO] 点击元素 [By.cssSelector: .vxe-pager--next-btn]
+[2023-11-02 15:57:59] [INFO] 开始查找元素[By.cssSelector: th.col_94 > div:nth-child(1) > span:nth-child(1) > span:nth-child(1)]
+[2023-11-02 15:57:59] [INFO] 找到了元素 [By.cssSelector: th.col_94 > div:nth-child(1) > span:nth-child(1) > span:nth-child(1)]
+[2023-11-02 15:57:59] [INFO] 点击元素 [By.cssSelector: th.col_94 > div:nth-child(1) > span:nth-child(1) > span:nth-child(1)]
+[2023-11-02 15:57:59] [INFO] 点击元素 [By.cssSelector: .vxe-pager--next-btn]
+[2023-11-02 15:58:00] [INFO] 开始查找元素[By.cssSelector: th.col_94 > div:nth-child(1) > span:nth-child(1) > span:nth-child(1)]
+[2023-11-02 15:58:00] [INFO] 找到了元素 [By.cssSelector: th.col_94 > div:nth-child(1) > span:nth-child(1) > span:nth-child(1)]
+[2023-11-02 15:58:00] [INFO] 点击元素 [By.cssSelector: th.col_94 > div:nth-child(1) > span:nth-child(1) > span:nth-child(1)]
+[2023-11-02 15:58:00] [INFO] 点击元素 [By.cssSelector: .ant-modal-footer > button:nth-child(2)]
+[2023-11-02 15:58:00] [INFO] 开始查找元素[By.cssSelector: button.ant-btn-round:nth-child(1)]
+[2023-11-02 15:58:00] [INFO] 找到了元素 [By.cssSelector: button.ant-btn-round:nth-child(1)]
+[2023-11-02 15:58:02] [WARN] By.cssSelector: button.ant-btn-round:nth-child(1) is unclickable, try again
+[2023-11-02 15:58:03] [WARN] By.cssSelector: button.ant-btn-round:nth-child(1) is unclickable
+[2023-11-02 15:58:03] [ERROR] Failed to click element [By.cssSelector: button.ant-btn-round:nth-child(1)]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testContentCenterSuite" parallel="tests" thread-count="30">
+    <!--permission -->
+    <test name="contentcenterPermission">
+        <classes>
+            <class name="com.qa.permission.contentcenterPermission"></class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.qa.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DownloadSuite_new" parallel="false">
+    <test name="Download_new">
+        <classes>
+            <class name="com.qa.follower.TestDownload">
+                <methods>
+                 <!--里面只有新接口，阿里云微软云都可以跑-->
+                    <include name="testDownload_new"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.qa.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

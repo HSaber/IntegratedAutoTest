@@ -1,0 +1,78 @@
+[INFO ] 2023-10-31 14:05:59,237 method:com.autotest.api.base.TestNgConfig.<init>(TestNgConfig.java:92)
+
+[INFO ] 2023-10-31 14:05:59,646 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:401)
+发送post请求
+[INFO ] 2023-10-31 14:05:59,703 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:405)
+statusCode= 405
+[INFO ] 2023-10-31 14:09:07,042 method:com.autotest.api.base.TestNgConfig.<init>(TestNgConfig.java:92)
+
+[INFO ] 2023-10-31 14:09:07,382 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:402)
+发送post请求
+[INFO ] 2023-10-31 14:09:07,432 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:406)
+statusCode= 405
+[INFO ] 2023-10-31 14:09:07,762 method:com.autotest.api.util.OperateFile.dealExcelVatiables(OperateFile.java:619)
+正在测试1. 获取用户信息
+[INFO ] 2023-10-31 14:09:35,508 method:com.autotest.api.base.TestNgConfig.<init>(TestNgConfig.java:92)
+
+[INFO ] 2023-10-31 14:09:35,833 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:402)
+发送post请求
+[INFO ] 2023-10-31 14:09:35,894 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:406)
+statusCode= 405
+[INFO ] 2023-10-31 14:09:36,195 method:com.autotest.api.util.OperateFile.dealExcelVatiables(OperateFile.java:619)
+正在测试1. 获取用户信息
+[INFO ] 2023-10-31 14:10:15,256 method:com.autotest.api.base.TestNgConfig.<init>(TestNgConfig.java:92)
+
+[INFO ] 2023-10-31 14:10:15,594 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:402)
+发送post请求
+[INFO ] 2023-10-31 14:10:15,649 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:406)
+statusCode= 405
+[INFO ] 2023-10-31 14:10:15,963 method:com.autotest.api.util.OperateFile.dealExcelVatiables(OperateFile.java:619)
+正在测试1. 获取用户信息
+[INFO ] 2023-10-31 15:36:18,698 method:com.autotest.api.base.TestNgConfig.<init>(TestNgConfig.java:92)
+
+[INFO ] 2023-10-31 15:36:19,088 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:410)
+发送post请求
+[INFO ] 2023-10-31 15:36:19,157 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:415)
+statusCode= 405
+[INFO ] 2023-10-31 15:40:49,207 method:com.autotest.api.base.TestNgConfig.<init>(TestNgConfig.java:92)
+
+[INFO ] 2023-10-31 15:40:49,543 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:409)
+发送post请求
+[INFO ] 2023-10-31 15:40:49,593 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:414)
+statusCode= 405
+[INFO ] 2023-10-31 15:42:58,968 method:com.autotest.api.base.TestNgConfig.<init>(TestNgConfig.java:92)
+
+[INFO ] 2023-10-31 15:42:59,311 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:408)
+发送post请求
+[INFO ] 2023-10-31 15:42:59,376 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:413)
+statusCode= 405
+[INFO ] 2023-10-31 15:46:04,765 method:com.autotest.api.base.TestNgConfig.<init>(TestNgConfig.java:92)
+
+[INFO ] 2023-10-31 15:46:05,213 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:423)
+发送post请求
+[INFO ] 2023-10-31 15:46:05,287 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:428)
+statusCode= 405
+[INFO ] 2023-10-31 15:46:05,938 method:com.autotest.api.base.TestNgConfig.<init>(TestNgConfig.java:92)
+
+[INFO ] 2023-10-31 15:46:06,593 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:423)
+发送post请求
+[INFO ] 2023-10-31 15:46:06,645 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:428)
+statusCode= 405
+[INFO ] 2023-10-31 15:46:06,982 method:com.autotest.api.util.OperateFile.dealExcelVatiables(OperateFile.java:619)
+正在测试1. 获取用户信息
+[INFO ] 2023-10-31 15:46:10,736 method:com.autotest.api.base.TestNgConfig.<init>(TestNgConfig.java:92)
+
+[INFO ] 2023-10-31 15:46:11,099 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:423)
+发送post请求
+[INFO ] 2023-10-31 15:46:11,154 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:428)
+statusCode= 405
+[INFO ] 2023-10-31 15:46:11,477 method:com.autotest.api.util.OperateFile.dealExcelVatiables(OperateFile.java:619)
+正在测试1. 获取用户信息
+[INFO ] 2023-10-31 15:48:56,848 method:com.autotest.api.base.TestNgConfig.<init>(TestNgConfig.java:92)
+
+[INFO ] 2023-10-31 15:48:57,208 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:423)
+发送post请求
+[INFO ] 2023-10-31 15:48:57,261 method:com.autotest.api.util.RequestBaseApi.doPost(RequestBaseApi.java:428)
+statusCode= 405
+[INFO ] 2023-10-31 15:48:57,598 method:com.autotest.api.util.OperateFile.dealExcelVatiables(OperateFile.java:619)
+正在测试1. 获取用户信息

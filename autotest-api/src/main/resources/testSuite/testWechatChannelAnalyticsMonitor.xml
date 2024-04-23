@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WechatChannelAnalyticsMonitor" parallel="false">
+    <test name="WechatChannelAnalyticsMonitor">
+        <classes>
+            <class name="com.qa.monitor.WechatChannelAnalyticsMonitor"></class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.qa.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testSurvey" preserve-order="true" parallel="tests" thread-count="10">
+    <test name="TestSurvey">
+        <classes>
+            <class name="com.qa.modules.b2b.TestSurvey"></class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.qa.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
