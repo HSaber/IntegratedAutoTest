@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="SimpleOrderFlow">
+<suite name="Demo">
     <!-- driver的属性配置文件保存路径 -->
     <parameter name="driverConfgFilePath" value="src/main/resources/config/driver.properties" />
     <!-- chrome,firefox,ghost和ie不区分大小写 -->
@@ -8,21 +8,21 @@
     <!-- 页面元素10秒不出现超时时间 -->
     <parameter name="timeOut" value="5" />
     <!-- 定义测试的站点 Ab123~~@@  18c7e54042ce@drmail.in -->
-    <parameter name="account" value="18c7e54042ce@drmail.in"/>
+    <parameter name="account" value="iitooperformance@qq.com"/>
     <parameter name="password" value="Ab123~~@@ "/>
-    <parameter name="realname" value="陈妾"/>
+    <parameter name="realname" value="iitooperformance@qq.com"/>
     <parameter name="role" value="法人"/><!-->法人/个人/员工<-->
     <parameter name="pronum" value="20"/>
     <parameter name="module" value="交易"/>
 
-    <parameter name="testurl" value="http://116.62.110.78:90" />
+    <parameter name="testurl" value="http://47.96.74.113:90/" />
 
  <!--   <parameter name="testurl" value="http://116.62.110.78:90/#/login?redirect=/deal/homeIndex" />-->
 
     <!-- 定义测试模块，用test标签包围 -->
     <test name="demo" preserve-order="true">
         <classes>
-            <class name="com.autotest.ui.business.Demo" />
+            <class name="com.autotest.ui.demo" />
         </classes>
     </test>
 

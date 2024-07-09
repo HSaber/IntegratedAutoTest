@@ -1,6 +1,7 @@
 package com.autotest.ui.business;
 
 import com.autotest.ui.base.BasePrepare;
+import com.autotest.ui.pages.SimpleOrderPerPage;
 import com.autotest.ui.pageshelper.SimpleOrderPerPageHelper;
 import com.autotest.ui.utils.Tools;
 import org.apache.log4j.Logger;
@@ -22,18 +23,18 @@ public class CreateSimpleOrderByPerson extends BasePrepare {
         //新建简单
         //进入简单列表
         SimpleOrderPerPageHelper.waitSimpleOrderPageLoad(seleniumUtil,timeOut);
-        seleniumUtil.click(By.xpath("//*[@id=\"nav_chat\"]/div[3]/div/ul/li[1]/span/a"));
+        seleniumUtil.click(SimpleOrderPerPage.SOP_LINK_NAV);
 //        //校验列表字段
 //
-        seleniumUtil.waitForElementToLoad(timeOut = 20, By.cssSelector("#iitoo-layout-main > div.iitoo-layout-content.full > div > div > div.tp > div.select-box > button"));
+        seleniumUtil.waitForElementToLoad(timeOut = 20, SimpleOrderPerPage.SOP_BUTTON_SO);
         String[] fieldarr = {"#", "状态", "优先级", "用途", "建单时间", "编号", "交货城市", "截止时间", "主题", "子单统计", "操作"};
         for (int i = 1; i <= 11; i++) {
             String str = seleniumUtil.getText(By.xpath(
-                    "/html/body/div[1]/section/section/section/div[2]/div/div/div[1]/div[2]/div[1]/div/div[2]/div[1]/div[1]/table/thead/tr/th[" + i + "]/div"));
+                    "//*[@id=\"iitoo-layout-main\"]/div[2]/div/div/div[1]/div[3]/div/div[1]/div/div[2]/div[1]/div[1]/table/thead/tr/th[" + i + "]/div"));
             seleniumUtil.isTextCorrect(str, fieldarr[i - 1]);
         }
 
-        seleniumUtil.click(By.cssSelector("#iitoo-layout-main > div.iitoo-layout-content.full > div > div > div.tp > div.select-box > button"));
+        seleniumUtil.click(SimpleOrderPerPage.SOP_BUTTON_SO);
         seleniumUtil.waitForElementToLoad(timeOut, By.id("form_item_missionNumber"));
         //校验详情字段
         String[] detailarr = {"13", "补充库存", tool.dateAdd(8), "", "低级", "", "生成子单", "删 除"};
@@ -44,11 +45,11 @@ public class CreateSimpleOrderByPerson extends BasePrepare {
                 case 1:
                     by = By.xpath("//*[@id=\"form_item_missionNumber\"]");
                     break;
-                case 2:
-                    by = By.xpath("/html/body/div[1]/section/section/section/div[2]/div/div/div[1]/div/form/div/div[5]/div/div[2]/div/div/div/div/div/span[2]");
-                    str = seleniumUtil.findElementBy(by).getAttribute("innerHTML");
-                    //  Assert.assertEquals(str,detailarr[i-1]);
-                    break;
+//                case 2:
+//                    by = By.xpath("/html/body/div[1]/section/section/section/div[2]/div/div/div[1]/div/form/div/div[5]/div/div[2]/div/div/div/div/div/span[2]");
+//                    str = seleniumUtil.findElementBy(by).getAttribute("innerHTML");
+//                    //  Assert.assertEquals(str,detailarr[i-1]);
+//                    break;
                 case 3:
                     by = By.id("form_item_endTime");
                     str = seleniumUtil.findElementBy(by).getAttribute("title");
@@ -69,16 +70,16 @@ public class CreateSimpleOrderByPerson extends BasePrepare {
                     break;
                 case 7:
                     js = (JavascriptExecutor) seleniumUtil.driver;
-                    String flag = js.executeScript("return document.querySelector(\"button.ant-btn:nth-child(2)\").hasAttribute(\"disabled\");").toString();
+                    String flag = js.executeScript("return document.querySelector(\""+SimpleOrderPerPage.BUTTON_CREATESUBORDER+"\").hasAttribute(\"disabled\");").toString();
                     Assert.assertEquals("true", flag);
-                    str = seleniumUtil.findElementBy(By.cssSelector("button.ant-btn:nth-child(2)")).getText();
+                    str = seleniumUtil.findElementBy(SimpleOrderPerPage.SOP_BUTTON_CREATESUBORDER).getText();
                     Assert.assertEquals(str, detailarr[i - 1]);
                     break;
                 case 8:
                     js = (JavascriptExecutor) seleniumUtil.driver;
-                    flag = js.executeScript("return document.querySelector(\"button.ant-btn:nth-child(3)\").hasAttribute(\"disabled\");").toString();
+                    flag = js.executeScript("return document.querySelector(\""+SimpleOrderPerPage.BUTTON_DELETE+"\").hasAttribute(\"disabled\");").toString();
                     Assert.assertEquals("true", flag);
-                    str = seleniumUtil.findElementBy(By.cssSelector("button.ant-btn:nth-child(3)")).getText();
+                    str = seleniumUtil.findElementBy(SimpleOrderPerPage.SOP_BUTTON_DELETE).getText();
                     Assert.assertEquals(str, detailarr[i - 1]);
                     break;
 
@@ -103,9 +104,9 @@ public class CreateSimpleOrderByPerson extends BasePrepare {
 //        js.executeScript("arguments[0].setAttribute('title', '中国 / 北京 / 东城')",element);
 //        js.executeScript("var ele=arguments[0]; ele.innerHTML = '中国 / 北京 / 东城';",element);
 
-
+        System.out.println("=================================分割线==============================================");
         for (int i = 1; i <= pronum; i++) {
-            seleniumUtil.click(By.xpath("/html/body/div[1]/section/section/section/div[2]/div/div/div[2]/div/div[2]/button"));
+            seleniumUtil.click(SimpleOrderPerPage.SOP_BUTTION_ADDPRODUCT);
             seleniumUtil.waitForElementToLoad(timeOut, By.cssSelector("tr.vxe-body--row:nth-child(" + i + ") > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)"));
             if (i == 1) {
                 //第一个商品设置图片
@@ -154,14 +155,12 @@ public class CreateSimpleOrderByPerson extends BasePrepare {
                 String button = seleniumUtil.findElementBy(By.cssSelector("tr.vxe-body--row:nth-child(" + i + ") > td:nth-child(11) > div:nth-child(1) > button:nth-child(1)")).getText();
                 Assert.assertEquals(button, "删除");
                 seleniumUtil.findElementBy(By.cssSelector("tr.vxe-body--row:nth-child(" + i + ") > td:nth-child(11) > div:nth-child(1) > button:nth-child(1)")).click();
-                seleniumUtil.waitForElementToLoad(timeOut, By.className("ant-modal-content"));
-                seleniumUtil.findElementBy(By.cssSelector(".ant-modal-confirm-btns > button:nth-child(2)")).click();
+                seleniumUtil.waitForElementToLoad(timeOut, SimpleOrderPerPage.SOP_POPBUTTION_DELETE);
+                seleniumUtil.findElementBy(SimpleOrderPerPage.SOP_POPBUTTION_DELETE).click();
             }
         }
         //点击保存 弹框校验
-        seleniumUtil.waitForElementToLoad(timeOut, By.cssSelector("button.ant-btn-round:nth-child(1)"));
-        seleniumUtil.findElementBy(By.cssSelector("button.ant-btn-round:nth-child(1)")).click();
-        seleniumUtil.waitForElementToLoad(timeOut, By.className("ant-message-notice-content"));
+        seleniumUtil.click(SimpleOrderPerPage.SOP_BUTTON_SAVE);
 
         //三个操作按钮的状态及文本
         Thread.sleep(1000);
@@ -171,15 +170,15 @@ public class CreateSimpleOrderByPerson extends BasePrepare {
         Assert.assertEquals("false", flag);
 
         js = (JavascriptExecutor) seleniumUtil.driver;
-        flag = js.executeScript("return document.querySelector(\"button.ant-btn-primary:nth-child(2)\").hasAttribute(\"disabled\");").toString();
+        flag = js.executeScript("return document.querySelector(\""+SimpleOrderPerPage.BUTTON_CREATESUBORDER+"\").hasAttribute(\"disabled\");").toString();
         Assert.assertEquals("false", flag);
-        String buttonstr = seleniumUtil.findElementBy(By.cssSelector("button.ant-btn:nth-child(2)")).getText();
+        String buttonstr = seleniumUtil.findElementBy(SimpleOrderPerPage.SOP_BUTTON_CREATESUBORDER).getText();
         Assert.assertEquals(buttonstr, "生成子单");
 
         js = (JavascriptExecutor) seleniumUtil.driver;
-        flag = js.executeScript("return document.querySelector(\"button.ant-btn-primary:nth-child(3)\").hasAttribute(\"disabled\");").toString();
+        flag = js.executeScript("return document.querySelector(\""+SimpleOrderPerPage.BUTTON_DELETE+"\").hasAttribute(\"disabled\");").toString();
         Assert.assertEquals("false", flag);
-        buttonstr = seleniumUtil.findElementBy(By.cssSelector("button.ant-btn:nth-child(3)")).getText();
+        buttonstr = seleniumUtil.findElementBy(SimpleOrderPerPage.SOP_BUTTON_DELETE).getText();
         Assert.assertEquals(buttonstr, "删 除");
 
 
@@ -208,13 +207,25 @@ public class CreateSimpleOrderByPerson extends BasePrepare {
     public void createSubsimpleOrderByPerson() throws Exception {
         int circle=10;
         int pageexpect=1;
-        //进入简单列表
-        seleniumUtil.click(By.xpath("//*[@id=\"nav_chat\"]/div[3]/div/ul/li[1]/span/a"));
-        seleniumUtil.waitForElementToLoad(timeOut=20,By.xpath("/html/body/div[1]/section/section/section/div[2]/div/div/div[1]/div[2]/div[1]/div/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[11]/div/div/span[1]"));
-        //点击生成子单按钮
-        seleniumUtil.click(By.xpath("/html/body/div[1]/section/section/section/div[2]/div/div/div[1]/div[2]/div[1]/div/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[11]/div/div/span[1]"));
-        //供应商
-        seleniumUtil.waitForElementToLoad(timeOut,By.xpath("//*[@id=\"iitoo-layout-main\"]/div[2]/div/div/div[1]/div/form/div/div[2]/div/div[2]/div/div/div/div"));
+        /**
+         * 进入简单列表 跳过建单
+         */
+        seleniumUtil.click(SimpleOrderPerPage.SOP_LINK_NAV);
+  //      seleniumUtil.waitForElementToLoad(timeOut,SimpleOrderPerPage.SOP_BUTTON_SO);
+        ////*[@id="iitoo-layout-main"]/div[2]/div/div/div[1]/div[3]/div/div[1]/div/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[9]/div/span
+        seleniumUtil.waitForElementToLoad(timeOut,SimpleOrderPerPage.SOP_TEXT_TITLE);
+        while(!seleniumUtil.getText(SimpleOrderPerPage.SOP_TEXT_TITLE).contains("请勿")){
+            seleniumUtil.pause(500);
+            seleniumUtil.refresh();
+            seleniumUtil.waitForElementToLoad(timeOut,SimpleOrderPerPage.SOP_TEXT_TITLE);
+        }
+        seleniumUtil.click(SimpleOrderPerPage.SOP_TEXT_ID);
+        seleniumUtil.waitForElementToLoad(timeOut, By.id("form_item_missionNumber"));
+
+        //详情点击生成子单按钮
+        seleniumUtil.click(SimpleOrderPerPage.SOP_BUTTON_CREATESUBORDER);
+        //选择供应商
+        seleniumUtil.waitForElementToLoad(timeOut,SimpleOrderPerPage.SOPSUB_SELECTOR_SUPPLIER);
         seleniumUtil.click(By.xpath("//*[@id=\"iitoo-layout-main\"]/div[2]/div/div/div[1]/div/form/div/div[2]/div/div[2]/div/div/div/div"));
         seleniumUtil.click(By.cssSelector("div.ant-select-item-option-active:nth-child(1) > div:nth-child(1)"));
 
@@ -229,12 +240,11 @@ public class CreateSimpleOrderByPerson extends BasePrepare {
 //        seleniumUtil.click(By.xpath("/html/body/div[4]/div/div/div/div[2]/div/div/div/div[2]/div"));
 
         //点击添加
-        seleniumUtil.click(By.cssSelector(".ant-btn-sm > span:nth-child(1)"));
-        seleniumUtil.waitForElementToLoad(timeOut,By.xpath("//*[@class=\"table-top\"]/div/div[2]/div[1]/div[1]"));
+        seleniumUtil.click(SimpleOrderPerPage.SOPSUB_BUTTON_ADDPRODUCT);
+        seleniumUtil.waitForElementToLoad(timeOut,SimpleOrderPerPage.SOPSUB_LAYER_CHOOSEPRODUCT);
         //点击全选
         int col=Integer.parseInt(seleniumUtil.getAttributeText(By.xpath("//*[@class=\"table-top\"]/div/div[2]/div[1]/div[1]"),"xid"));
         seleniumUtil.click(By.cssSelector("th.col_"+(col+1)+" > div:nth-child(1) > span:nth-child(1) > span:nth-child(1)"));
-
         //计算页数
         int page=0;
         String total=seleniumUtil.getText(By.cssSelector(".vxe-pager--total"));
@@ -249,13 +259,18 @@ public class CreateSimpleOrderByPerson extends BasePrepare {
         System.out.println("page:"+page);
         //   根据页数确定跳转次数
         By by=By.className("vxe-pager--goto");
-        String curstartorder=seleniumUtil.getText(By.cssSelector("tr.vxe-body--row:nth-child(1) > td:nth-child(2) > div:nth-child(1)"));
+        //
+     //   String curstartorder=seleniumUtil.getText(By.cssSelector("tr.vxe-body--row:nth-child(1) > td:nth-child(2) > div:nth-child(1)"));
+        //获取中间件第一条数据的序号
+        By pageorder = By.cssSelector(".tid_"+col+" > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(2)");
+        String curstartorder=seleniumUtil.getText(pageorder);
+        System.out.println("curstartorder:"+curstartorder);
         int start=1;
         while(start<page){
             seleniumUtil.click(By.cssSelector(".vxe-pager--next-btn"));
             while((start*10+1)!=Integer.parseInt(curstartorder)){
                 Thread.sleep(500);
-                curstartorder=seleniumUtil.getText(By.cssSelector("tr.vxe-body--row:nth-child(1) > td:nth-child(2) > div:nth-child(1)"));
+                curstartorder=seleniumUtil.getText(pageorder);
                 System.out.println("curstartorder:"+curstartorder);
             }
             seleniumUtil.waitForElementToLoad(timeOut,By.cssSelector("th.col_"+(col+1)+" > div:nth-child(1) > span:nth-child(1) > span:nth-child(1)"));
@@ -278,19 +293,19 @@ public class CreateSimpleOrderByPerson extends BasePrepare {
         }
 
         //点击简单导航
-        seleniumUtil.click(By.xpath("//*[@id=\"nav_chat\"]/div[3]/div/ul/li[1]/span/a"));
+        seleniumUtil.click(SimpleOrderPerPage.SOP_LINK_NAV);
         seleniumUtil.waitForElementToLoad(timeOut,By.cssSelector(".row--current > td:nth-child(10)"));
         //点击子单统计数
         seleniumUtil.click(By.cssSelector(".row--current > td:nth-child(10) > div:nth-child(1) > span:nth-child(1)"));
-        seleniumUtil.waitForElementToLoad(timeOut,By.cssSelector("td.vxe-body--column:nth-child(13) > div:nth-child(1) > button:nth-child(1)"));
+        seleniumUtil.waitForElementToLoad(timeOut,SimpleOrderPerPage.SOPSUB_BUTTON_LIST);
         //点击发送按钮
-        seleniumUtil.click(By.cssSelector("td.vxe-body--column:nth-child(13) > div:nth-child(1) > button:nth-child(1)"));
-        String status=seleniumUtil.getText(By.cssSelector("td.vxe-body--column:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1)"));
+        seleniumUtil.click(SimpleOrderPerPage.SOPSUB_BUTTON_LIST);
+        String status=seleniumUtil.getText(SimpleOrderPerPage.SOPSUB_TEXT_STATE);
         circle=10;
         while (status.equals("草稿")&&circle>0){
             circle--;
             Thread.sleep(500);
-            status=seleniumUtil.getText(By.cssSelector("td.vxe-body--column:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1)"));
+            status=seleniumUtil.getText(SimpleOrderPerPage.SOPSUB_TEXT_STATE);
         }
 
     }

@@ -1,6 +1,7 @@
 package com.autotest.ui.business;
 
 import com.autotest.ui.base.BasePrepare;
+import com.autotest.ui.pages.SimpleOrderCMPage;
 import com.autotest.ui.utils.Tools;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
@@ -23,22 +24,25 @@ public class ReceiveSimpleOrderByPM extends BasePrepare {
 //    }
     @Test(priority = 5)
     public void receiveSimpleOrderByPM()throws Exception{
-        seleniumUtil.click(By.xpath("/html/body/div[1]/section/section/div[3]/div[2]/div/div[2]/div/ul/li[2]/span/a"));
-        seleniumUtil.waitForElementToLoad(timeOut,By.xpath("/html/body/div[1]/section/section/section/div[2]/div/div/div[1]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[9]"));
+        seleniumUtil.click(SimpleOrderCMPage.SOCLOUD_LINK_NAV);
+        seleniumUtil.waitForElementToLoad(timeOut,SimpleOrderCMPage.SOCLOUDLISTPM_TEXT_ID);
 //        Assert.assertEquals(subject,cloudSubject);
-        seleniumUtil.click(By.cssSelector(".row--current > td:nth-child(4) > div:nth-child(1) > a:nth-child(1)"));
-        seleniumUtil.waitForElementToLoad(timeOut,By.cssSelector("tr.vxe-body--row:nth-child(1) > td:nth-child(11) > div:nth-child(1) > button:nth-child(1)"));
-        for(int i=1;i<=num-1;i++){
-            seleniumUtil.click(By.cssSelector("tr.vxe-body--row:nth-child("+i+") > td:nth-child(11) > div:nth-child(1) > button:nth-child(1)"));
+        seleniumUtil.click(SimpleOrderCMPage.SOCLOUDLISTPM_TEXT_ID);
+        seleniumUtil.waitForElementToLoad(timeOut,SimpleOrderCMPage.SOCLOUDDETAILPM_BUTTON_TAKEORDER);
+        for(int i=3;i<=num-1;i++){
+            seleniumUtil.click(By.xpath(SimpleOrderCMPage.BUTTON_TAKEORDER+"/tr["+i+"]/td[10]/div/button"));
             if(i==1){
 
                 seleniumUtil.waitForElementToLoad(timeOut,By.className("ant-modal-content"));
-                Thread.sleep(1000);
-                seleniumUtil.click(By.cssSelector("label.ant-checkbox-wrapper:nth-child(3) > span:nth-child(1) > input:nth-child(1)"));
-                seleniumUtil.click(By.cssSelector("button.ant-btn:nth-child(4)"));
+                seleniumUtil.pause(1);
+//                seleniumUtil.click(By.cssSelector("label.ant-checkbox-wrapper:nth-child(3) > span:nth-child(1) > input:nth-child(1)"));
+//                seleniumUtil.click(By.cssSelector("button.ant-btn:nth-child(4)"));
+
+                seleniumUtil.click(SimpleOrderCMPage.SOCLOUDDETAILPM_INPUT_NOTTAKEN);
+                seleniumUtil.click(SimpleOrderCMPage.SOCLOUDDETAILPM_BUTTION_NOTTAKEN);
+
             }
-            System.out.println("i="+i);
-            Thread.sleep(1000);
+            seleniumUtil.pause(1);
            /* //合并订单
             if(i==2){
                 seleniumUtil.waitForElementToLoad(timeOut, By.xpath("/html/body/div[7]/div/div[2]/div/div[2]"));
@@ -48,15 +52,15 @@ public class ReceiveSimpleOrderByPM extends BasePrepare {
             }*/
             //生成新单
             if(i==2){
-                seleniumUtil.waitForElementToLoad(timeOut, By.xpath("/html/body/div[7]/div/div[2]/div/div[2]"));
-                Thread.sleep(1000);
-                seleniumUtil.click(By.xpath("/html/body/div[7]/div/div[2]/div/div[2]/div[3]/label[2]/span/input"));
-                seleniumUtil.click(By.xpath("/html/body/div[7]/div/div[2]/div/div[2]/div[3]/button[2]"));
+                seleniumUtil.waitForElementToLoad(timeOut, By.className("ant-modal-content"));
+                seleniumUtil.pause(1);
+                seleniumUtil.click(SimpleOrderCMPage.SOCLOUDDETAILPM_INPUT_MERGE);
+                seleniumUtil.click(SimpleOrderCMPage.SOCLOUDDETAILPM_BUTTION_MERGE);
             }
-            String attributeText=seleniumUtil.getAttributeText(By.cssSelector("tr.vxe-body--row:nth-child("+i+") > td:nth-child(11) > div:nth-child(1) > button:nth-child(1)"),"style");
+            String attributeText=seleniumUtil.getAttributeText(By.xpath(SimpleOrderCMPage.BUTTON_TAKEORDER+"/tr["+i+"]/td[10]/div/button"),"style");
             while(attributeText.contains("blue")){
-                Thread.sleep(1000);
-                attributeText=seleniumUtil.getAttributeText(By.cssSelector("tr.vxe-body--row:nth-child("+i+") > td:nth-child(11) > div:nth-child(1) > button:nth-child(1)"),"style");
+                seleniumUtil.pause(1);
+                attributeText=seleniumUtil.getAttributeText(By.xpath(SimpleOrderCMPage.BUTTON_TAKEORDER+"/tr["+i+"]/td[10]/div/button"),"style");
             }
         }
 

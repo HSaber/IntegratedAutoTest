@@ -8,10 +8,11 @@
     <!-- 页面元素10秒不出现超时时间 -->
     <parameter name="timeOut" value="5" />
     <!-- 定义测试的站点 -->
-    <parameter name="account" value="iitoo12@qq.com"/>
+    <parameter name="account" value="iitooperformance@qq.com"/>
     <parameter name="password" value="Ab123~~@@"/>
     <parameter name="realname" value="嬴政"/>
     <parameter name="pronum" value="20"/>
+<!--    <parameter name="testurl" value="http://47.96.74.113:90/" />-->
     <parameter name="testurl" value="http://116.62.110.78:90" />
 
  <!--   <parameter name="testurl" value="http://116.62.110.78:90/#/login?redirect=/deal/homeIndex" />-->

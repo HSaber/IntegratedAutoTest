@@ -8,12 +8,12 @@
     <!-- 页面元素10秒不出现超时时间 -->
     <parameter name="timeOut" value="10" />
     <!-- 定义测试的站点 -->
-    <parameter name="account" value="XWX2019"/>
-    <parameter name="password" value="111111"/>
+    <parameter name="account" value="iitoocompany1.1@qq.com"/>
+    <parameter name="password" value="Ab123~~@@"/>
     <parameter name="realname" value="徐维祥"/>
 <!--    <parameter name="testurl" value="http://116.62.110.78:90/#/login?redirect=/chat/index" />-->
-
-    <parameter name="testurl" value="http://119.3.135.155:90//#/login?redirect=/deal/homeIndex" />
+<!--    http://47.96.74.113:90/-->
+    <parameter name="testurl" value="http://116.62.110.78:90" />
 
     <!-- 定义测试模块，用test标签包围 -->
     <test name="Login" preserve-order="true">

@@ -1,42 +1,121 @@
-[2023-12-05 13:38:03] [INFO] 当前操作系统是:[Windows 10]
-[2023-12-05 13:38:03] [INFO] 启动测试浏览器：[chrome]
-[2023-12-05 13:38:05] [INFO] 最大化浏览器:chrome
-[2023-12-05 13:38:06] [INFO] 打开测试页面:[http://116.62.110.78:90]
-[2023-12-05 13:38:07] [INFO] 开始检查登录页面元素
-[2023-12-05 13:38:07] [INFO] 开始查找元素[By.id: form_item_account]
-[2023-12-05 13:38:10] [INFO] 找到了元素 [By.id: form_item_account]
-[2023-12-05 13:38:10] [INFO] 开始查找元素[By.id: form_item_password]
-[2023-12-05 13:38:10] [INFO] 找到了元素 [By.id: form_item_password]
-[2023-12-05 13:38:10] [INFO] 开始查找元素[By.xpath: //*[@id="rc-tabs-0-panel-1"]/form/div[4]/div/div/div/button]
-[2023-12-05 13:38:11] [INFO] 找到了元素 [By.xpath: //*[@id="rc-tabs-0-panel-1"]/form/div[4]/div/div/div/button]
-[2023-12-05 13:38:11] [INFO] 检查登录页面元素完毕
-[2023-12-05 13:38:11] [INFO] 开始输入登录信息
-[2023-12-05 13:38:11] [INFO] 清除元素 [By.id: form_item_account]上的内容
-[2023-12-05 13:38:11] [INFO] 输入：[kaylee2019] 到 [By.id: form_item_account]
-[2023-12-05 13:38:11] [INFO] 清除元素 [By.id: form_item_password]上的内容
-[2023-12-05 13:38:11] [INFO] 输入：[111111] 到 [By.id: form_item_password]
-[2023-12-05 13:38:11] [INFO] 输入登录信息完毕
-[2023-12-05 13:38:11] [INFO] 点击元素 [By.xpath: //*[@id="rc-tabs-0-panel-1"]/form/div[4]/div/div/div/button]
-[2023-12-05 13:38:11] [INFO] 开始等待首页元素加载
-[2023-12-05 13:38:11] [INFO] 开始查找元素[By.cssSelector: .iitoo-header-user-dropdown__header]
-[2023-12-05 13:38:12] [INFO] 找到了元素 [By.cssSelector: .iitoo-header-user-dropdown__header]
-[2023-12-05 13:38:12] [INFO] 首页元素加载完毕
-[2023-12-05 13:38:12] [INFO] 开始检查用户名是不是：郑怡
-[2023-12-05 13:38:12] [INFO] 开始查找元素[By.xpath: //*[@id="htmlRoot"]/body/div[5]/div/div/div/ul/li[1]/span/div/div[2]/span[1]]
-[2023-12-05 13:38:13] [INFO] 找到了元素 [By.xpath: //*[@id="htmlRoot"]/body/div[5]/div/div/div/ul/li[1]/span/div/div[2]/span[1]]
-[2023-12-05 13:38:13] [INFO] 找到了期望的文字: [郑怡]
-[2023-12-05 13:38:13] [INFO] 用户名检查完毕,用户名是：郑怡
-[2023-12-05 13:38:13] [INFO] 开始等待云简单列表元素加载
-[2023-12-05 13:38:13] [INFO] 开始查找元素[By.xpath: //*[@id="nav_chat"]/div[2]/div/ul/li[2]/span/a]
-[2023-12-05 13:38:13] [INFO] 找到了元素 [By.xpath: //*[@id="nav_chat"]/div[2]/div/ul/li[2]/span/a]
-[2023-12-05 13:38:13] [INFO] 云简单列表元素加载完毕
-[2023-12-05 13:38:13] [INFO] 点击元素 [By.xpath: //*[@id="nav_chat"]/div[2]/div/ul/li[2]/span/a]
-[2023-12-05 13:38:13] [INFO] 开始查找元素[By.xpath: (//div[@class="ant-tabs-nav-list"])[2]/div[1]/div]
-[2023-12-05 13:38:13] [INFO] 找到了元素 [By.xpath: (//div[@class="ant-tabs-nav-list"])[2]/div[1]/div]
-[2023-12-05 13:38:14] [WARN] By.cssSelector: table.vxe-table--body:nth-child(2) > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) is unclickable, try again
-[2023-12-05 13:38:14] [WARN] By.cssSelector: table.vxe-table--body:nth-child(2) > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) is unclickable, try again
-[2023-12-05 13:38:15] [WARN] By.cssSelector: table.vxe-table--body:nth-child(2) > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) is unclickable, try again
-[2023-12-05 13:38:15] [WARN] By.cssSelector: table.vxe-table--body:nth-child(2) > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) is unclickable, try again
-[2023-12-05 13:38:16] [WARN] By.cssSelector: table.vxe-table--body:nth-child(2) > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) is unclickable, try again
-[2023-12-05 13:38:16] [WARN] By.cssSelector: table.vxe-table--body:nth-child(2) > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) is unclickable
-[2023-12-05 13:38:16] [ERROR] Failed to click element [By.cssSelector: table.vxe-table--body:nth-child(2) > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1)]
+[2024-06-13 18:25:56] [INFO] 当前操作系统是:[Windows 10]
+[2024-06-13 18:25:56] [INFO] 启动测试浏览器：[chrome]
+[2024-06-13 18:25:59] [INFO] 最大化浏览器:chrome
+[2024-06-13 18:26:00] [INFO] 打开测试页面:[http://116.62.110.78:90]
+[2024-06-13 18:26:01] [INFO] 开始检查登录页面元素
+[2024-06-13 18:26:01] [INFO] 开始查找元素[By.id: form_item_account]
+[2024-06-13 18:26:01] [INFO] 找到了元素 [By.id: form_item_account]
+[2024-06-13 18:26:01] [INFO] 开始查找元素[By.id: form_item_password]
+[2024-06-13 18:26:01] [INFO] 找到了元素 [By.id: form_item_password]
+[2024-06-13 18:26:01] [INFO] 开始查找元素[By.xpath: //*[@id="rc-tabs-0-panel-1"]/form/div[4]/div/div/div/button]
+[2024-06-13 18:26:01] [INFO] 找到了元素 [By.xpath: //*[@id="rc-tabs-0-panel-1"]/form/div[4]/div/div/div/button]
+[2024-06-13 18:26:01] [INFO] 检查登录页面元素完毕
+[2024-06-13 18:26:01] [INFO] 开始输入登录信息
+[2024-06-13 18:26:01] [INFO] 清除元素 [By.id: form_item_account]上的内容
+[2024-06-13 18:26:01] [INFO] 输入：[iitoocompany1@qq.com] 到 [By.id: form_item_account]
+[2024-06-13 18:26:01] [INFO] 清除元素 [By.id: form_item_password]上的内容
+[2024-06-13 18:26:01] [INFO] 输入：[Ab123~~@@] 到 [By.id: form_item_password]
+[2024-06-13 18:26:01] [INFO] 输入登录信息完毕
+[2024-06-13 18:26:02] [INFO] 点击元素 [By.xpath: //*[@id="rc-tabs-0-panel-1"]/form/div[4]/div/div/div/button]
+[2024-06-13 18:26:02] [INFO] 开始等待首页元素加载
+[2024-06-13 18:26:02] [INFO] 开始查找元素[By.xpath: //*[@id="app"]/section/section/div[2]/div[1]/span/img]
+[2024-06-13 18:26:02] [INFO] 找到了元素 [By.xpath: //*[@id="app"]/section/section/div[2]/div[1]/span/img]
+[2024-06-13 18:26:02] [INFO] 首页元素加载完毕
+[2024-06-13 18:26:02] [INFO] divclass:room-img-bus-contant room-contant-bus-active
+[2024-06-13 18:26:02] [INFO] divclass:room-img-contant
+[2024-06-13 18:26:04] [INFO] 点击元素 [By.xpath: //*[@id="nav_chat"]/div[2]/div/ul/li[2]/span/a]
+[2024-06-13 18:26:04] [INFO] 开始查找元素[By.xpath: //div[text()="客户简单"]]
+[2024-06-13 18:26:04] [INFO] 找到了元素 [By.xpath: //div[text()="客户简单"]]
+[2024-06-13 18:26:04] [INFO] 点击元素 [By.xpath: //div[text()="客户简单"]]
+[2024-06-13 18:26:04] [INFO] 开始查找元素[By.xpath: /html/body/div[1]/section/section/section/div[2]/div/div/div[1]/div[3]/div/div[1]/div/div[2]/div[1]/div[2]/table]
+[2024-06-13 18:26:05] [INFO] 找到了元素 [By.xpath: /html/body/div[1]/section/section/section/div[2]/div/div/div[1]/div[3]/div/div[1]/div/div[2]/div[1]/div[2]/table]
+[2024-06-13 18:26:05] [INFO] totalcol:0
+[2024-06-13 18:26:05] [INFO] 加载客户简单列表中
+[2024-06-13 18:26:05] [INFO] total:8
+[2024-06-13 18:26:05] [INFO] 开始查找元素[By.xpath: //span[text()="推送卖单"][1]]
+[2024-06-13 18:26:05] [INFO] 找到了元素 [By.xpath: //span[text()="推送卖单"][1]]
+[2024-06-13 18:26:06] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[1]/div[3]/div/div[1]/div/div[2]/div[1]/div[2]/table/tbody/tr["+line+"]/td[5]/div/a]
+[2024-06-13 18:26:06] [INFO] 开始查找元素[By.id: form_item_endTime]
+[2024-06-13 18:26:06] [INFO] 找到了元素 [By.id: form_item_endTime]
+[2024-06-13 18:26:06] [INFO] 客户简单详情字段获取:null
+[2024-06-13 18:26:06] [INFO] 客户简单详情字段获取:jbzi228iitooperformance个人jbzi228iitooperformance个人jbzi228iitooperformance个人jbzi228iitooperformance个人
+[2024-06-13 18:26:06] [INFO] 客户简单详情字段获取:
+[2024-06-13 18:26:06] [INFO] 客户简单详情字段获取:中国 / 北京 / 东城
+[2024-06-13 18:26:06] [INFO] 客户简单详情字段获取:低级
+[2024-06-13 18:26:06] [INFO] 客户简单详情字段获取:
+[2024-06-13 18:26:06] [INFO] The element: [ xpath: //span[text()="保 存"]] is enabled
+[2024-06-13 18:26:06] [INFO] The element: [ xpath: //span[text()="新建我的云简单"]] is enabled
+[2024-06-13 18:26:06] [INFO] The element: [ css selector: button.ant-btn:nth-child(3)] is enabled
+[2024-06-13 18:26:07] [INFO] 点击元素 [By.xpath: //span[text()="新建我的云简单"]]
+[2024-06-13 18:26:07] [INFO] 点击元素 [By.xpath: //span[text()="添 加"]]
+[2024-06-13 18:26:07] [INFO] 开始查找元素[By.className: ant-modal-content]
+[2024-06-13 18:26:07] [INFO] 找到了元素 [By.className: ant-modal-content]
+[2024-06-13 18:26:07] [INFO] 找到了期望的文字: [19]
+[2024-06-13 18:26:07] [INFO] CheckBox:  css selector: tr.vxe-body--row:nth-child(1) > td:nth-child(1) > div:nth-child(1) > span:nth-child(1) > span:nth-child(1) 没有被勾选
+[2024-06-13 18:26:07] [INFO] 点击元素 [By.xpath: //span[text()="确 定"]]
+[2024-06-13 18:26:07] [INFO] 165
+[2024-06-13 18:26:07] [INFO] trlist:[[[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_165 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_165 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_165 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_165 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_165 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_165 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_165 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_165 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_165 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_165 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_165 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_165 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_165 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_165 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_165 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_165 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_165 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_165 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_165 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr]]
+[2024-06-13 18:26:07] [INFO] 点击元素 [By.cssSelector: button.ant-btn-round:nth-child(1)]
+[2024-06-13 18:26:07] [INFO] The element: [ css selector: button.ant-btn-round:nth-child(1)] is enabled
+[2024-06-13 18:26:10] [INFO] The element: [ css selector: button.ant-btn-round:nth-child(2)] is enabled
+[2024-06-13 18:26:10] [INFO] The element: [ css selector: button.ant-btn-round:nth-child(3)] is enabled
+[2024-06-13 18:26:10] [INFO] 找到了期望的文字: [删 除]
+[2024-06-13 18:26:10] [INFO] 找到了期望的文字: [中国 / 北京 / 东城]
+[2024-06-13 18:26:10] [INFO] 找到了期望的文字: [低级]
+[2024-06-13 18:26:10] [INFO] 点击元素 [By.xpath: //*[@id="nav_chat"]/div[2]/div/ul/li[2]/span/a]
+[2024-06-13 18:26:10] [INFO] 开始查找元素[By.xpath: /html/body/div[1]/section/section/section/div[2]/div/div/div[1]/div[3]/div/div[1]/div/div[2]/div[1]/div[2]/table/tbody/tr[1]]
+[2024-06-13 18:26:10] [INFO] 找到了元素 [By.xpath: /html/body/div[1]/section/section/section/div[2]/div/div/div[1]/div[3]/div/div[1]/div/div[2]/div[1]/div[2]/table/tbody/tr[1]]
+[2024-06-13 18:26:10] [INFO] 找到了期望的文字: [草稿]
+[2024-06-13 18:26:10] [INFO] 找到了期望的文字: [低级]
+[2024-06-13 18:26:10] [INFO] 找到了期望的文字: [东城]
+[2024-06-13 18:26:10] [INFO] The [请勿动2024-06-13 18:25:07 嬴政新建简单 共19个商品] is contains [请勿]
+[2024-06-13 18:26:10] [INFO] 找到了期望的文字: [color: orange; cursor: pointer;]
+[2024-06-13 18:26:11] [INFO] 找到了期望的文字: [color: red; cursor: pointer; margin-left: 10px;]
+[2024-06-13 18:26:11] [INFO] 点击元素 [By.cssSelector: .row--current > td:nth-child(10) > div:nth-child(1) > div:nth-child(1) > span:nth-child(2)]
+[2024-06-13 18:26:11] [INFO] 开始查找元素[By.cssSelector: button.ant-btn:nth-child(2)]
+[2024-06-13 18:26:11] [INFO] 找到了元素 [By.cssSelector: button.ant-btn:nth-child(2)]
+[2024-06-13 18:26:11] [INFO] 点击元素 [By.cssSelector: button.ant-btn:nth-child(2)]
+[2024-06-13 18:26:12] [INFO] 点击元素 [By.xpath: //div[text()="客户简单"]]
+[2024-06-13 18:26:12] [INFO] 开始查找元素[By.xpath: /html/body/div[1]/section/section/section/div[2]/div/div/div[1]/div[3]/div/div[1]/div/div[2]/div[1]/div[2]/table]
+[2024-06-13 18:26:13] [INFO] 找到了元素 [By.xpath: /html/body/div[1]/section/section/section/div[2]/div/div/div[1]/div[3]/div/div[1]/div/div[2]/div[1]/div[2]/table]
+[2024-06-13 18:26:13] [INFO] totalcol:0
+[2024-06-13 18:26:13] [INFO] 加载客户简单列表中
+[2024-06-13 18:26:13] [INFO] total:8
+[2024-06-13 18:26:13] [INFO] 开始查找元素[By.xpath: //span[text()="推送卖单"][1]]
+[2024-06-13 18:26:13] [INFO] 找到了元素 [By.xpath: //span[text()="推送卖单"][1]]
+[2024-06-13 18:26:14] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[1]/div[3]/div/div[1]/div/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[5]/div/a]
+[2024-06-13 18:26:14] [INFO] 开始查找元素[By.id: form_item_endTime]
+[2024-06-13 18:26:14] [INFO] 找到了元素 [By.id: form_item_endTime]
+[2024-06-13 18:26:14] [INFO] 客户简单详情字段获取:null
+[2024-06-13 18:26:14] [INFO] 客户简单详情字段获取:jbzi228iitooperformance个人jbzi228iitooperformance个人jbzi228iitooperformance个人jbzi228iitooperformance个人
+[2024-06-13 18:26:14] [INFO] 客户简单详情字段获取:
+[2024-06-13 18:26:14] [INFO] 客户简单详情字段获取:中国 / 北京 / 东城
+[2024-06-13 18:26:14] [INFO] 客户简单详情字段获取:低级
+[2024-06-13 18:26:14] [INFO] 客户简单详情字段获取:
+[2024-06-13 18:26:14] [INFO] The element: [ xpath: //span[text()="保 存"]] is enabled
+[2024-06-13 18:26:14] [INFO] The element: [ xpath: //span[text()="新建我的云简单"]] is enabled
+[2024-06-13 18:26:14] [INFO] The element: [ css selector: button.ant-btn:nth-child(3)] is enabled
+[2024-06-13 18:26:14] [INFO] 点击元素 [By.xpath: //span[text()="新建我的云简单"]]
+[2024-06-13 18:26:15] [INFO] 点击元素 [By.xpath: //span[text()="添 加"]]
+[2024-06-13 18:26:15] [INFO] 开始查找元素[By.className: ant-modal-content]
+[2024-06-13 18:26:15] [INFO] 找到了元素 [By.className: ant-modal-content]
+[2024-06-13 18:26:15] [INFO] 找到了期望的文字: [19]
+[2024-06-13 18:26:15] [INFO] CheckBox:  css selector: tr.vxe-body--row:nth-child(1) > td:nth-child(1) > div:nth-child(1) > span:nth-child(1) > span:nth-child(1) 没有被勾选
+[2024-06-13 18:26:15] [INFO] 点击元素 [By.xpath: //span[text()="确 定"]]
+[2024-06-13 18:26:15] [INFO] 482
+[2024-06-13 18:26:15] [INFO] trlist:[[[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_482 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_482 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_482 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_482 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_482 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_482 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_482 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_482 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_482 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_482 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_482 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_482 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_482 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_482 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_482 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_482 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_482 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_482 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr], [[[[ChromeDriver: chrome on WINDOWS (2f00890369d74e1aa1e794c6ad92cfe4)] -> css selector: .tid_482 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(2)]] -> tag name: tr]]
+[2024-06-13 18:26:15] [INFO] 点击元素 [By.cssSelector: button.ant-btn-round:nth-child(1)]
+[2024-06-13 18:26:15] [INFO] The element: [ css selector: button.ant-btn-round:nth-child(1)] is enabled
+[2024-06-13 18:26:17] [INFO] The element: [ css selector: button.ant-btn-round:nth-child(2)] is enabled
+[2024-06-13 18:26:17] [INFO] The element: [ css selector: button.ant-btn-round:nth-child(3)] is enabled
+[2024-06-13 18:26:17] [INFO] 找到了期望的文字: [删 除]
+[2024-06-13 18:26:17] [INFO] 找到了期望的文字: [中国 / 北京 / 东城]
+[2024-06-13 18:26:18] [INFO] 找到了期望的文字: [低级]
+[2024-06-13 18:26:18] [INFO] 点击元素 [By.xpath: //*[@id="nav_chat"]/div[2]/div/ul/li[2]/span/a]
+[2024-06-13 18:26:18] [INFO] 开始查找元素[By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[1]/div[3]/div/div[1]/div/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[5]/div/a]
+[2024-06-13 18:26:18] [INFO] 找到了元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[1]/div[3]/div/div[1]/div/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[5]/div/a]
+[2024-06-13 18:26:18] [INFO] 点击元素 [By.xpath: //span[text()="上架"][1]]
+[2024-06-13 18:26:18] [INFO] The element: [ xpath: //span[text()="下架"][1]] is enabled
+[2024-06-13 18:26:18] [INFO] 找到了期望的文字: [下架]
+[2024-06-13 18:26:19] [INFO] 找到了期望的文字: [color: grey; cursor: pointer; margin-left: 10px;]
+[2024-06-13 18:26:19] [INFO] 找到了期望的文字: [已发送]

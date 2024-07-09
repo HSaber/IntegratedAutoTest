@@ -2,6 +2,7 @@ package com.autotest.ui.business;
 
 import com.autotest.ui.base.BasePrepare;
 import com.autotest.ui.pages.SpacePage;
+import com.autotest.ui.pages.TransactionPage;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
