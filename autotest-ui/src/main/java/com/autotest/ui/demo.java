@@ -19,6 +19,7 @@ public class demo {
 
     }
     public void compareAB(){
+        System.out.println("111");
         Assert.assertEquals("AB","A");
 
     }
