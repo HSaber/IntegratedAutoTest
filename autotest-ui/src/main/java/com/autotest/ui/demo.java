@@ -14,8 +14,12 @@ import org.testng.annotations.Test;
  */
 public class demo {
     @Test
-    public void compareStr(){
+    public void compareAA(){
         Assert.assertEquals("A","A");
+
+    }
+    public void compareAB(){
+        Assert.assertEquals("AB","A");
 
     }
 }

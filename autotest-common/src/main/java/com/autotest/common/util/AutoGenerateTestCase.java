@@ -2,6 +2,7 @@ package com.autotest.common.util;
 
 import com.alibaba.fastjson.JSONObject;
 import com.jayway.jsonpath.JsonPath;
+import com.sun.rowset.internal.Row;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -145,7 +146,6 @@ public class AutoGenerateTestCase {
             }else if(requestType.equals("delete")){
                 requestType="DELETE";
             }
-
             if(requestURL.contains("?")&&!requestURL.contains("/{")){
                 requestURL=requestURL.substring(0,requestURL.indexOf("?"));
 
