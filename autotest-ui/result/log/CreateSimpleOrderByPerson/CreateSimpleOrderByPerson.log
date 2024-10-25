@@ -1,156 +1,89 @@
-[2024-06-13 18:24:57] [INFO] 当前操作系统是:[Windows 10]
-[2024-06-13 18:24:57] [INFO] 启动测试浏览器：[chrome]
-[2024-06-13 18:25:00] [INFO] 最大化浏览器:chrome
-[2024-06-13 18:25:02] [INFO] 打开测试页面:[http://116.62.110.78:90]
-[2024-06-13 18:25:03] [INFO] 开始检查登录页面元素
-[2024-06-13 18:25:03] [INFO] 开始查找元素[By.id: form_item_account]
-[2024-06-13 18:25:03] [INFO] 找到了元素 [By.id: form_item_account]
-[2024-06-13 18:25:03] [INFO] 开始查找元素[By.id: form_item_password]
-[2024-06-13 18:25:03] [INFO] 找到了元素 [By.id: form_item_password]
-[2024-06-13 18:25:03] [INFO] 开始查找元素[By.xpath: //*[@id="rc-tabs-0-panel-1"]/form/div[4]/div/div/div/button]
-[2024-06-13 18:25:03] [INFO] 找到了元素 [By.xpath: //*[@id="rc-tabs-0-panel-1"]/form/div[4]/div/div/div/button]
-[2024-06-13 18:25:03] [INFO] 检查登录页面元素完毕
-[2024-06-13 18:25:03] [INFO] 开始输入登录信息
-[2024-06-13 18:25:03] [INFO] 清除元素 [By.id: form_item_account]上的内容
-[2024-06-13 18:25:03] [INFO] 输入：[iitooperformance@qq.com] 到 [By.id: form_item_account]
-[2024-06-13 18:25:03] [INFO] 清除元素 [By.id: form_item_password]上的内容
-[2024-06-13 18:25:03] [INFO] 输入：[Ab123~~@@] 到 [By.id: form_item_password]
-[2024-06-13 18:25:03] [INFO] 输入登录信息完毕
-[2024-06-13 18:25:03] [INFO] 点击元素 [By.xpath: //*[@id="rc-tabs-0-panel-1"]/form/div[4]/div/div/div/button]
-[2024-06-13 18:25:03] [INFO] 开始等待首页元素加载
-[2024-06-13 18:25:03] [INFO] 开始查找元素[By.xpath: //*[@id="app"]/section/section/div[2]/div[1]/span/img]
-[2024-06-13 18:25:04] [INFO] 找到了元素 [By.xpath: //*[@id="app"]/section/section/div[2]/div[1]/span/img]
-[2024-06-13 18:25:04] [INFO] 首页元素加载完毕
-[2024-06-13 18:25:04] [INFO] divclass:room-img-bus-contant
-[2024-06-13 18:25:04] [INFO] divclass:room-img-contant room-contant-active
-[2024-06-13 18:25:05] [INFO] 开始等待简单列表元素加载
-[2024-06-13 18:25:05] [INFO] 开始查找元素[By.xpath: //*[@id="nav_chat"]/div[3]/div/ul/li[1]/span/a]
-[2024-06-13 18:25:05] [INFO] 找到了元素 [By.xpath: //*[@id="nav_chat"]/div[3]/div/ul/li[1]/span/a]
-[2024-06-13 18:25:05] [INFO] 简单列表元素加载完毕
-[2024-06-13 18:25:06] [INFO] 点击元素 [By.xpath: //*[@id="nav_chat"]/div[3]/div/ul/li[1]/span/a]
-[2024-06-13 18:25:06] [INFO] 开始查找元素[By.cssSelector: #iitoo-layout-main > div.iitoo-layout-content.full > div > div > div.tp > div.btn-box > div.btns > button]
-[2024-06-13 18:25:06] [INFO] 找到了元素 [By.cssSelector: #iitoo-layout-main > div.iitoo-layout-content.full > div > div > div.tp > div.btn-box > div.btns > button]
-[2024-06-13 18:25:06] [INFO] 找到了期望的文字: [#]
-[2024-06-13 18:25:06] [INFO] 找到了期望的文字: [状态]
-[2024-06-13 18:25:06] [INFO] 找到了期望的文字: [优先级]
-[2024-06-13 18:25:06] [INFO] 找到了期望的文字: [用途]
-[2024-06-13 18:25:06] [INFO] 找到了期望的文字: [建单时间]
-[2024-06-13 18:25:06] [INFO] 找到了期望的文字: [编号]
-[2024-06-13 18:25:06] [INFO] 找到了期望的文字: [交货城市]
-[2024-06-13 18:25:06] [INFO] 找到了期望的文字: [截止时间]
-[2024-06-13 18:25:06] [INFO] 找到了期望的文字: [主题]
-[2024-06-13 18:25:06] [INFO] 找到了期望的文字: [子单统计]
-[2024-06-13 18:25:06] [INFO] 找到了期望的文字: [操作]
-[2024-06-13 18:25:07] [INFO] 点击元素 [By.cssSelector: #iitoo-layout-main > div.iitoo-layout-content.full > div > div > div.tp > div.btn-box > div.btns > button]
-[2024-06-13 18:25:07] [INFO] 开始查找元素[By.id: form_item_missionNumber]
-[2024-06-13 18:25:07] [INFO] 找到了元素 [By.id: form_item_missionNumber]
-[2024-06-13 18:25:08] [INFO] 点击元素 [By.cssSelector: li.ant-cascader-menu-item-expand:nth-child(1) > div:nth-child(1)]
-[2024-06-13 18:25:08] [INFO] 开始查找元素[By.cssSelector: ul.ant-cascader-menu:nth-child(2) > li:nth-child(1)]
-[2024-06-13 18:25:08] [INFO] 找到了元素 [By.cssSelector: ul.ant-cascader-menu:nth-child(2) > li:nth-child(1)]
-[2024-06-13 18:25:08] [INFO] 点击元素 [By.cssSelector: ul.ant-cascader-menu:nth-child(2) > li:nth-child(1)]
-[2024-06-13 18:25:08] [INFO] 开始查找元素[By.cssSelector: ul.ant-cascader-menu:nth-child(3) > li:nth-child(1)]
-[2024-06-13 18:25:08] [INFO] 找到了元素 [By.cssSelector: ul.ant-cascader-menu:nth-child(3) > li:nth-child(1)]
-[2024-06-13 18:25:09] [INFO] 点击元素 [By.cssSelector: ul.ant-cascader-menu:nth-child(3) > li:nth-child(1)]
-[2024-06-13 18:25:09] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:09] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(1) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:09] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(1) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:10] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:10] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(2) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:10] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(2) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:11] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:11] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(3) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:11] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(3) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:11] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:11] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(4) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:12] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(4) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:12] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:12] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(5) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:12] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(5) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:13] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:13] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(6) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:13] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(6) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:14] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:14] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(7) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:14] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(7) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:15] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:15] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(8) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:15] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(8) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:16] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:16] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(9) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:16] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(9) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:17] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:17] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(10) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:17] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(10) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:18] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:18] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(11) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:18] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(11) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:19] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:19] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(12) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:19] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(12) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:20] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:20] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(13) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:20] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(13) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:22] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:22] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(14) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:22] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(14) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:23] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:23] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(15) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:23] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(15) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:24] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:24] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(16) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:24] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(16) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:25] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:25] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(17) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:25] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(17) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:26] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:26] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(18) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:26] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(18) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:27] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:27] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(19) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:28] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(19) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:29] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[2]/div[1]/div[2]/button]
-[2024-06-13 18:25:29] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(20) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:29] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(20) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:30] [INFO] 开始查找元素[By.cssSelector: .ant-modal-confirm-btns > button:nth-child(2)]
-[2024-06-13 18:25:30] [INFO] 找到了元素 [By.cssSelector: .ant-modal-confirm-btns > button:nth-child(2)]
-[2024-06-13 18:25:31] [INFO] 点击元素 [By.cssSelector: button.ant-btn-round:nth-child(1)]
-[2024-06-13 18:25:32] [INFO] 点击元素 [By.xpath: //*[@id="nav_chat"]/div[3]/div/ul/li[1]/span/a]
-[2024-06-13 18:25:32] [INFO] 开始查找元素[By.cssSelector: .row--current > td:nth-child(9)]
-[2024-06-13 18:25:32] [INFO] 找到了元素 [By.cssSelector: .row--current > td:nth-child(9)]
-[2024-06-13 18:25:33] [INFO] 点击元素 [By.cssSelector: .row--current > td:nth-child(6) > div:nth-child(1) > a:nth-child(1)]
-[2024-06-13 18:25:33] [INFO] 开始查找元素[By.cssSelector: tr.vxe-body--row:nth-child(1) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:33] [INFO] 找到了元素 [By.cssSelector: tr.vxe-body--row:nth-child(1) > td:nth-child(2) > div:nth-child(1) > input:nth-child(1)]
-[2024-06-13 18:25:33] [INFO] 点击元素 [By.xpath: //*[@id="nav_chat"]/div[3]/div/ul/li[1]/span/a]
-[2024-06-13 18:25:33] [INFO] 开始查找元素[By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[1]/div[3]/div/div[1]/div/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[9]/div/span]
-[2024-06-13 18:25:34] [INFO] 找到了元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[1]/div[3]/div/div[1]/div/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[9]/div/span]
-[2024-06-13 18:25:34] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[1]/div[3]/div/div[1]/div/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[6]/div/a]
-[2024-06-13 18:25:34] [INFO] 开始查找元素[By.id: form_item_missionNumber]
-[2024-06-13 18:25:35] [INFO] 找到了元素 [By.id: form_item_missionNumber]
-[2024-06-13 18:25:35] [INFO] 点击元素 [By.cssSelector: button.ant-btn-primary:nth-child(2)]
-[2024-06-13 18:25:35] [INFO] 开始查找元素[By.cssSelector: div.ant-col-6:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)]
-[2024-06-13 18:25:35] [INFO] 找到了元素 [By.cssSelector: div.ant-col-6:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)]
-[2024-06-13 18:25:35] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[1]/div/form/div/div[2]/div/div[2]/div/div/div/div]
-[2024-06-13 18:25:35] [INFO] 点击元素 [By.cssSelector: div.ant-select-item-option-active:nth-child(1) > div:nth-child(1)]
-[2024-06-13 18:25:35] [INFO] 点击元素 [By.className: ant-picker-input]
-[2024-06-13 18:25:35] [INFO] 开始查找元素[By.cssSelector: .ant-picker-content > tbody:nth-child(2) > tr:nth-child(4) > td:nth-child(1) > div:nth-child(1)]
-[2024-06-13 18:25:36] [INFO] 找到了元素 [By.cssSelector: .ant-picker-content > tbody:nth-child(2) > tr:nth-child(4) > td:nth-child(1) > div:nth-child(1)]
-[2024-06-13 18:25:36] [INFO] 点击元素 [By.cssSelector: #iitoo-layout-main > div.iitoo-layout-content.full > div > div > div.task-detail-table > div > div.pd10.add > button]
-[2024-06-13 18:25:36] [INFO] 开始查找元素[By.xpath: //*[@class="table-top"]/div/div[2]/div[1]/div[1]]
-[2024-06-13 18:25:36] [INFO] 找到了元素 [By.xpath: //*[@class="table-top"]/div/div[2]/div[1]/div[1]]
-[2024-06-13 18:25:36] [INFO] 点击元素 [By.cssSelector: th.col_423 > div:nth-child(1) > span:nth-child(1) > span:nth-child(1)]
-[2024-06-13 18:25:36] [INFO] 点击元素 [By.cssSelector: .vxe-pager--next-btn]
-[2024-06-13 18:25:37] [INFO] 开始查找元素[By.cssSelector: th.col_423 > div:nth-child(1) > span:nth-child(1) > span:nth-child(1)]
-[2024-06-13 18:25:37] [INFO] 找到了元素 [By.cssSelector: th.col_423 > div:nth-child(1) > span:nth-child(1) > span:nth-child(1)]
-[2024-06-13 18:25:37] [INFO] 点击元素 [By.cssSelector: th.col_423 > div:nth-child(1) > span:nth-child(1) > span:nth-child(1)]
-[2024-06-13 18:25:37] [INFO] 点击元素 [By.cssSelector: .ant-modal-footer > button:nth-child(2)]
-[2024-06-13 18:25:37] [INFO] 开始查找元素[By.cssSelector: button.ant-btn-round:nth-child(1)]
-[2024-06-13 18:25:37] [INFO] 找到了元素 [By.cssSelector: button.ant-btn-round:nth-child(1)]
-[2024-06-13 18:25:37] [INFO] 点击元素 [By.cssSelector: button.ant-btn-round:nth-child(1)]
-[2024-06-13 18:25:38] [INFO] The element: [ css selector: button.ant-btn:nth-child(2)] is enabled
-[2024-06-13 18:25:38] [INFO] 点击元素 [By.xpath: //*[@id="nav_chat"]/div[3]/div/ul/li[1]/span/a]
-[2024-06-13 18:25:38] [INFO] 开始查找元素[By.cssSelector: .row--current > td:nth-child(10)]
-[2024-06-13 18:25:39] [INFO] 找到了元素 [By.cssSelector: .row--current > td:nth-child(10)]
-[2024-06-13 18:25:39] [INFO] 点击元素 [By.cssSelector: .row--current > td:nth-child(10) > div:nth-child(1) > span:nth-child(1)]
-[2024-06-13 18:25:39] [INFO] 开始查找元素[By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[2]/table/tbody/tr/td[12]/div/button]
-[2024-06-13 18:25:39] [INFO] 找到了元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[2]/table/tbody/tr/td[12]/div/button]
-[2024-06-13 18:25:39] [INFO] 点击元素 [By.xpath: //*[@id="iitoo-layout-main"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[2]/table/tbody/tr/td[12]/div/button]
+[2024-10-10 15:16:12] [INFO] 当前操作系统是:[Windows 10]
+[2024-10-10 15:16:12] [INFO] 启动测试浏览器：[chrome]
+[2024-10-10 15:16:14] [ERROR] 浏览器不能正常工作，请检查是不是被手动关闭或者其他原因
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 125
+Current browser version is 129.0.6668.90 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FCPTKV2', ip: '172.28.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7FB341F52+60322]
+	(No symbol) [0x00007FF7FB2BCEC9]
+	(No symbol) [0x00007FF7FB177EBA]
+	(No symbol) [0x00007FF7FB1B6202]
+	(No symbol) [0x00007FF7FB1B53D8]
+	(No symbol) [0x00007FF7FB1AEFD7]
+	(No symbol) [0x00007FF7FB1AAF74]
+	(No symbol) [0x00007FF7FB1F7934]
+	(No symbol) [0x00007FF7FB1F6F90]
+	(No symbol) [0x00007FF7FB1EBFC3]
+	(No symbol) [0x00007FF7FB1B9617]
+	(No symbol) [0x00007FF7FB1BA211]
+	GetHandleVerifier [0x00007FF7FB6594AD+3301629]
+	GetHandleVerifier [0x00007FF7FB6A36D3+3605283]
+	GetHandleVerifier [0x00007FF7FB699450+3563680]
+	GetHandleVerifier [0x00007FF7FB3F4326+790390]
+	(No symbol) [0x00007FF7FB2C750F]
+	(No symbol) [0x00007FF7FB2C3404]
+	(No symbol) [0x00007FF7FB2C3592]
+	(No symbol) [0x00007FF7FB2B2F9F]
+	BaseThreadInitThunk [0x00007FFD79D1257D+29]
+	RtlUserThreadStart [0x00007FFD7B1CAF08+40]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.autotest.ui.utils.SelectBrowser.selectExplorerByName(SelectBrowser.java:51)
+	at com.autotest.ui.utils.SeleniumUtil.launchBrowser(SeleniumUtil.java:35)
+	at com.autotest.ui.base.BasePrepare.startTest(BasePrepare.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[2024-10-10 15:16:15] [INFO] 开始等待简单列表元素加载
+[2024-10-10 15:16:15] [INFO] 开始查找元素[By.xpath: //*[@id="nav_chat"]/div[3]/div/ul/li[1]/span/a]
+[2024-10-10 15:16:15] [WARN] By.xpath: //*[@id="nav_chat"]/div[3]/div/ul/li[1]/span/a is unclickable, try again
+[2024-10-10 15:16:16] [WARN] By.xpath: //*[@id="nav_chat"]/div[3]/div/ul/li[1]/span/a is unclickable, try again
+[2024-10-10 15:16:16] [WARN] By.xpath: //*[@id="nav_chat"]/div[3]/div/ul/li[1]/span/a is unclickable, try again
+[2024-10-10 15:16:17] [WARN] By.xpath: //*[@id="nav_chat"]/div[3]/div/ul/li[1]/span/a is unclickable, try again
+[2024-10-10 15:16:17] [WARN] By.xpath: //*[@id="nav_chat"]/div[3]/div/ul/li[1]/span/a is unclickable, try again
+[2024-10-10 15:16:17] [WARN] By.xpath: //*[@id="nav_chat"]/div[3]/div/ul/li[1]/span/a is unclickable
+[2024-10-10 15:16:17] [ERROR] Failed to click element [By.xpath: //*[@id="nav_chat"]/div[3]/div/ul/li[1]/span/a]
+[2024-10-10 15:16:17] [ERROR] 浏览器driver没有获得对象,退出操作失败

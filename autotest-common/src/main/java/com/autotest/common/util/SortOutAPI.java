@@ -6,6 +6,7 @@ import org.apache.http.auth.UsernamePasswordCredentials;
 import org.apache.http.client.CredentialsProvider;
 import org.apache.http.impl.client.BasicCredentialsProvider;
 import org.apache.http.impl.nio.client.HttpAsyncClientBuilder;
+import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
@@ -37,7 +38,7 @@ public class SortOutAPI {
         baseDir = System.getProperty("user.dir") + "/src/main/resources/";
     }
 
-    public static void initFile(Workbook wb,String sheetName,File file) throws Exception {
+    public static void initFile(Workbook wb, String sheetName, File file) throws Exception {
         Sheet sheet = wb.createSheet(sheetName);
         Row row = sheet.createRow(0);
         //表头字体样式
